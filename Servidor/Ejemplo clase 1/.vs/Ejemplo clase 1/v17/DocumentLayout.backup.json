@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Ejemplo clase 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{11D1C26E-B154-4C75-8521-757A4516A29A}|Ejemplo clase 1\\Ejemplo clase 1.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Ejemplo clase 1\\ejemplo clase 1\\ejemplo 2.1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{11D1C26E-B154-4C75-8521-757A4516A29A}|Ejemplo clase 1\\Ejemplo clase 1.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\ejemplo clase 1\\ejemplo clase 1\\ejemplo 2.1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{11D1C26E-B154-4C75-8521-757A4516A29A}|Ejemplo clase 1\\Ejemplo clase 1.csproj|solutionrelative:ejemplo clase 1\\ejemplo 2.1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11D1C26E-B154-4C75-8521-757A4516A29A}|Ejemplo clase 1\\Ejemplo clase 1.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\ejemplo clase 1\\ejemplo clase 1\\ejemplo 2.1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11D1C26E-B154-4C75-8521-757A4516A29A}|Ejemplo clase 1\\Ejemplo clase 1.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Ejemplo clase 1\\ejemplo clase 1\\ejemplo 2.1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11D1C26E-B154-4C75-8521-757A4516A29A}|Ejemplo clase 1\\Ejemplo clase 1.csproj|solutionrelative:ejemplo clase 1\\ejemplo 2.1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,8 +30,7 @@
               "RelativeToolTip": "Ejemplo clase 1\\Ejemplo 2.1.aspx.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T16:57:35.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T16:57:35.54Z"
             },
             {
               "$type": "Document",
