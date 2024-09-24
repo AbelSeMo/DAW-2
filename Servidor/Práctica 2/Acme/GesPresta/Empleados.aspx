@@ -15,33 +15,58 @@
         <div>
             <uc1:Cabecera ID="Cabecera1" runat="server" />
         </div>
-        <div class="DatosEmpleados">
+        <div>
             <h2>Datos de los Empleados</h2>
         </div>
-        <div>
-            <label>Código Empleado</label>
-            <asp:TextBox ID="txtCodEmp" runat="server"></asp:TextBox> <br />
-            <label>NIF</label>
-            <asp:TextBox ID="txtNifEmp" runat="server"></asp:TextBox> <br />
-            <label>Apellidos y Nombre</label>
-            <asp:TextBox ID="txtNomEmp" runat="server"></asp:TextBox> <br />
-            <label>Dirección</label>
-            <asp:TextBox ID="txtDirEmp" runat="server"></asp:TextBox> <br />
-            <label>Ciudad</label>
-            <asp:TextBox ID="txtCiuEmp" runat="server"></asp:TextBox> <br />
-            <label>Teléfonos</label>
-            <asp:TextBox ID="txtTelEmp" runat="server"></asp:TextBox> <br />
-            <label>Fecha de Nacimiento</label>
-            <asp:TextBox ID="txtFnaEmp" runat="server"></asp:TextBox> <br />
-            <label>Fecha de Ingreso</label>
-            <asp:TextBox ID="txtFinEmp" runat="server"></asp:TextBox> <br />
-            <label>Sexo</label>
-            <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal">
-                <asp:ListItem Selected="True" Value="H">Hombre</asp:ListItem>
-                <asp:ListItem Value="M">Mujer</asp:ListItem>
-            </asp:RadioButtonList>&nbsp;<br />
-            <label>Departamento</label>
-            <asp:DropDownList ID="ddlDepEmp" runat="server"></asp:DropDownList> <br />
+        <div class="DatosEmpleados">
+            <div class="PosicionDatos">
+                <label>Código Empleado</label>
+                <asp:TextBox ID="txtCodEmp" runat="server"></asp:TextBox> <br />
+             </div>
+            <div class="PosicionDatos">
+                <label>NIF</label>
+                <asp:TextBox ID="txtNifEmp" runat="server"></asp:TextBox> <br />
+            </div>
+            <div class="PosicionDatos">
+                <label>Apellidos y Nombre</label>
+                <asp:TextBox ID="txtNomEmp" runat="server"></asp:TextBox> <br />
+            </div>
+            <div class="PosicionDatos">
+                <label>Dirección</label>
+                <asp:TextBox ID="txtDirEmp" runat="server"></asp:TextBox> <br />
+            </div>
+            <div class="PosicionDatos">
+                <label>Ciudad</label>
+                <asp:TextBox ID="txtCiuEmp" runat="server"></asp:TextBox> <br />
+            </div>
+            <div class="PosicionDatos">
+                <label>Teléfonos</label>
+                <asp:TextBox ID="txtTelEmp" runat="server"></asp:TextBox> <br />
+            </div>
+            <div class="PosicionDatos">
+                <label>Fecha de Nacimiento</label>
+                <asp:TextBox ID="txtFnaEmp" runat="server"></asp:TextBox> <br />
+            </div>
+            <div class="PosicionDatos">
+                <label>Fecha de Ingreso</label>
+                <asp:TextBox ID="txtFinEmp" runat="server"></asp:TextBox> <br />
+            </div>
+            <div class="PosicionDatos">
+                <label>Sexo</label>
+                    <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal">
+                        <asp:ListItem Selected="True" Value="H">Hombre</asp:ListItem>
+                        <asp:ListItem Value="M">Mujer</asp:ListItem>
+                    </asp:RadioButtonList>&nbsp;&nbsp;<br />
+            </div>
+            <div class="PosicionDatos">
+                <label>Departamento</label>
+                <asp:DropDownList ID="ddlDepEmp" runat="server">
+                    <asp:ListItem Selected="True">Investigación</asp:ListItem>
+                    <asp:ListItem>Desarrollo</asp:ListItem>
+                    <asp:ListItem>Innovación</asp:ListItem>
+                    <asp:ListItem>Administración</asp:ListItem>
+                </asp:DropDownList> <br />
+            </div>
             <asp:Button ID="cmdEnviar" runat="Server" Text="Enviar"/>
         </div>
     </form>

@@ -4,3 +4,29 @@ h2{
     font-weight:normal;
     text-align: center;
 }
+.DatosEmpleados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+}
+.DatosEmpleados label {
+    text-align: left;
+    width: 150px;
+}
+.DatosEmpleados br {
+    margin-bottom: 10px;
+}
+
+#cmdEnviar {
+    margin-top: 20px;
+}
+.DatosEmpleados .PosicionDatos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    margin-bottom: 15px;
+    width: 20%;
+}
