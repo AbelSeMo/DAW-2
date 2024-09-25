@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace GesPresta
 {
-    public partial class Empleados : System.Web.UI.Page
+    public partial class Prestaciones : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Cabecera1_Load(object sender, EventArgs e)
         {
 
         }

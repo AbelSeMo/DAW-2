@@ -13,7 +13,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <uc1:Cabecera ID="Cabecera1" runat="server" />
+            <uc1:Cabecera ID="Cabecera1" runat="server" OnLoad="Cabecera1_Load" />
         </div>
         <div>
             <h2>Datos de los Empleados</h2>
@@ -53,10 +53,12 @@
             </div>
             <div class="PosicionDatos">
                 <label>Sexo</label>
+                     <div class="radio-options">
                     <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal">
                         <asp:ListItem Selected="True" Value="H">Hombre</asp:ListItem>
                         <asp:ListItem Value="M">Mujer</asp:ListItem>
                     </asp:RadioButtonList>&nbsp;&nbsp;<br />
+                     </div>
             </div>
             <div class="PosicionDatos">
                 <label>Departamento</label>

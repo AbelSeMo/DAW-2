@@ -5,7 +5,7 @@ h2 {
     text-align: center;
 }
 
-.DatosEmpleados {
+.DatosPrestaciones {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@ h2 {
     padding: 20px;
 }
 
-.PosicionDatos {
+.PosicionPrestaciones {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -23,24 +23,17 @@ h2 {
     width: 80%;
 }
 
-    .PosicionDatos label {
+    .PosicionPrestaciones label {
         width: 150px;
         text-align: right;
         margin-right: 20px;
     }
 
-    .PosicionDatos input[type="text"],
-    .PosicionDatos select,
-    .PosicionDatos .radio-options {
+    .PosicionPrestaciones input[type="text"],
+    .PosicionPrestaciones select{
         width: 100%;
         padding: 8px;
     }
-.radio-options {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10px;
-}
 
 #cmdEnviar {
     margin-top: 20px;
