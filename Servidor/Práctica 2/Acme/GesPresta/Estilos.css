@@ -31,11 +31,11 @@ h2 {
 
     .PosicionDatos input[type="text"],
     .PosicionDatos select,
-    .PosicionDatos .radio-options {
+    .PosicionDatos .radio-opciones {
         width: 100%;
         padding: 8px;
     }
-.radio-options {
+.radio-opciones {
     display: flex;
     justify-content: flex-start;
     align-items: center;

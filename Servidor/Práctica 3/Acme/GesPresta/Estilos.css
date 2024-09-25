@@ -1,0 +1,49 @@
+﻿body {
+}
+h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.Datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Posicion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+    .Posicion label {
+        width: 150px;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    .Posicion input[type="text"],
+    .Posicion select,
+    .Posicion .radio-opciones {
+        width: 100%;
+        padding: 8px;
+    }
+.radio-opciones {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+#cmdEnviar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    align-self: center;
+}

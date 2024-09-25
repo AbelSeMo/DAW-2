@@ -8,6 +8,7 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
+    <link href="EstilosCabecera.css" rel="stylesheet" type="text/css" />
     <link href="Estilos.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -53,7 +54,7 @@
             </div>
             <div class="PosicionDatos">
                 <label>Sexo</label>
-                     <div class="radio-options">
+                     <div class="radio-opciones">
                     <asp:RadioButtonList ID="RadioButtonList1" runat="server" RepeatDirection="Horizontal">
                         <asp:ListItem Selected="True" Value="H">Hombre</asp:ListItem>
                         <asp:ListItem Value="M">Mujer</asp:ListItem>
