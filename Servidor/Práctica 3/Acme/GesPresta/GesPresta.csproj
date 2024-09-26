@@ -69,11 +69,14 @@
   <ItemGroup>
     <Content Include="Cabecera.ascx" />
     <Content Include="Default.aspx" />
+    <Content Include="EmpleadosCalendar.aspx" />
     <Content Include="Empleados1.aspx" />
     <Content Include="Empleados.aspx" />
     <Content Include="Estilos.css" />
     <Content Include="EstilosCabecera.css" />
+    <Content Include="Prestaciones1.aspx" />
     <Content Include="Prestaciones.aspx" />
+    <Content Include="Prestaciones1Respuesta.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +94,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EmpleadosCalendar.aspx.cs">
+      <DependentUpon>EmpleadosCalendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpleadosCalendar.aspx.designer.cs">
+      <DependentUpon>EmpleadosCalendar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Empleados1.aspx.cs">
       <DependentUpon>Empleados1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -105,12 +115,26 @@
     <Compile Include="Empleados.aspx.designer.cs">
       <DependentUpon>Empleados.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Prestaciones1.aspx.cs">
+      <DependentUpon>Prestaciones1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prestaciones1.aspx.designer.cs">
+      <DependentUpon>Prestaciones1.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Prestaciones.aspx.cs">
       <DependentUpon>Prestaciones.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Prestaciones.aspx.designer.cs">
       <DependentUpon>Prestaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Prestaciones1Respuesta.aspx.cs">
+      <DependentUpon>Prestaciones1Respuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prestaciones1Respuesta.aspx.designer.cs">
+      <DependentUpon>Prestaciones1Respuesta.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Empleados1.aspx.cs" Inherits="GesPresta.Empleados1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EmpleadosCalendar.aspx.cs" Inherits="GesPresta.EmpleadosCalendar" %>
 
 <%@ Register src="Cabecera.ascx" tagname="Cabecera" tagprefix="uc1" %>
 
@@ -72,6 +72,15 @@
             </div>
             <asp:Button ID="cmdEnviar" runat="Server" Text="Enviar" OnClick="cmdEnviar_Click"/> <br />
             <asp:Label ID="lblValores1" style="background-color: #66FFFF; width: 60%; text-align: center; margin-top:20px" runat="server"></asp:Label>
+            <div class="calendar">
+                <label>Fecha de nacimiento</label> 
+                <asp:TextBox ID="txtFecNacEmp" runat="server"></asp:TextBox> <br />
+                <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+                <br />
+                <label>Fecha de Ingreso</label>
+                <asp:TextBox ID="txtFecIngEmp" runat="server"></asp:TextBox> <br />
+                <asp:Calendar ID="Calendar2" runat="server"></asp:Calendar>
+            </div>
         </div>
     </form>
 </body>
