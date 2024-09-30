@@ -47,3 +47,25 @@ h2 {
     padding: 10px 20px;
     align-self: center;
 }
+
+.todoCalendario {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.calendario {
+    width: 48%;
+}
+
+    .calendario label, .calendario input[type="text"] {
+        display: block;
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+.calendario .asp-calendario{
+    width: 100%;
+    padding: 8px;
+}

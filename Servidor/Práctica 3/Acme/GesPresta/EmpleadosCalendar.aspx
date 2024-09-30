@@ -72,16 +72,34 @@
             </div>
             <asp:Button ID="cmdEnviar" runat="Server" Text="Enviar" OnClick="cmdEnviar_Click"/> <br />
             <asp:Label ID="lblValores1" style="background-color: #66FFFF; width: 60%; text-align: center; margin-top:20px" runat="server"></asp:Label>
-            <div class="calendar">
+        </div>
+            <div class="todoCalendario">
+                <div class="calendario">
                 <label>Fecha de nacimiento</label> 
                 <asp:TextBox ID="txtFecNacEmp" runat="server"></asp:TextBox> <br />
-                <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+                <asp:Calendar ID="Calendar1" runat="server" CssClass="asp-calendario">
+                    <DayHeaderStyle BackColor="#CCCCCC" />
+                    <OtherMonthDayStyle BackColor="#999999" />
+                    <SelectedDayStyle BackColor="#99CC00" />
+                    <TitleStyle BackColor="Gray" />
+                    <TodayDayStyle BackColor="#FF9933" />
+                    <WeekendDayStyle BackColor="#FFFF99" />
+                    </asp:Calendar>
                 <br />
+                </div>
+                <div class="calendario">
                 <label>Fecha de Ingreso</label>
                 <asp:TextBox ID="txtFecIngEmp" runat="server"></asp:TextBox> <br />
-                <asp:Calendar ID="Calendar2" runat="server"></asp:Calendar>
-            </div>
-        </div>
+                <asp:Calendar ID="Calendar2" runat="server" CssClass="asp-calendario">
+                    <DayHeaderStyle BackColor="#CCCCCC" />
+                    <OtherMonthDayStyle BackColor="#999999" />
+                    <SelectedDayStyle BackColor="#99CC00" />
+                    <TitleStyle BackColor="Gray" />
+                    <TodayDayStyle BackColor="#FF9933" />
+                    <WeekendDayStyle BackColor="#FFFF99" />
+                    </asp:Calendar>
+                </div>
+            </div>  
     </form>
 </body>
 </html>
