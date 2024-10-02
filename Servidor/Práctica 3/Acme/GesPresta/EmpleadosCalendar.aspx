@@ -74,7 +74,7 @@
             <div class="todoCalendario">
                 <div class="calendario">
                 <label>Fecha de nacimiento</label> 
-                <asp:TextBox ID="txtFecNacEmp" runat="server"></asp:TextBox> <br />
+                <asp:TextBox ID="txtFecNacEmp" runat="server" AutoPostBack="True" OnTextChanged="txtFecNacEmp_TextChanged"></asp:TextBox> <br />
                 <asp:Calendar ID="CalendarNacimiento" runat="server" CssClass="asp-calendario" OnSelectionChanged="CalendarNacimiento_SelectionChanged">
                     <DayHeaderStyle BackColor="#CCCCCC" />
                     <OtherMonthDayStyle BackColor="#999999" />
@@ -87,7 +87,7 @@
                 </div>
                 <div class="calendario">
                 <label>Fecha de Ingreso</label>
-                <asp:TextBox ID="txtFecIngEmp" runat="server"></asp:TextBox> <br />
+                <asp:TextBox ID="txtFecIngEmp" runat="server" AutoPostBack="True" OnTextChanged="txtFecIngEmp_TextChanged"></asp:TextBox> <br />
                 <asp:Calendar ID="CalendarIngreso" runat="server" CssClass="asp-calendario" OnSelectionChanged="CalendarIngreso_SelectionChanged">
                     <DayHeaderStyle BackColor="#CCCCCC" />
                     <OtherMonthDayStyle BackColor="#999999" />
@@ -99,14 +99,16 @@
                 </div>
             </div>
             <div class="Antiguedad">
-                <label>Antiguedad:</label>
                 <div>
+                    <label>Años de antiguedad:</label>
                     <asp:TextBox ID="txtAnyos" runat="server"></asp:TextBox>
                 </div>
                 <div>
+                    <label>Meses de antiguedad:</label>
                     <asp:TextBox ID="txtMeses" runat="server"></asp:TextBox>
                 </div>
                 <div>
+                    <label>Días de antiguedad:</label>
                     <asp:TextBox ID="txtDias" runat="server"></asp:TextBox>
                 </div>
             </div>

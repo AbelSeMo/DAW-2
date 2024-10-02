@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -131,5 +132,46 @@ namespace GesPresta
             }
         }
 
+        protected void txtFecNacEmp_TextChanged(object sender, EventArgs e)
+        {
+            DateTime dtHoy = System.DateTime.Now;
+            DateTime fecha;
+            if (DateTime.TryParse(txtFecNacEmp.Text, out fecha))
+            {
+                CalendarNacimiento.SelectedDate = fecha;
+                CalendarNacimiento.VisibleDate = fecha;
+                gestionErrores(dtHoy);
+            }
+            else
+            {
+                CalendarNacimiento.SelectedDate = dtHoy;
+                CalendarNacimiento.VisibleDate = dtHoy;
+            }
+        }
+
+        protected void txtFecIngEmp_TextChanged(object sender, EventArgs e)
+        {
+            DateTime dtHoy = System.DateTime.Now;
+            DateTime fecha;
+            
+            if (DateTime.TryParse(txtFecIngEmp.Text, out fecha))
+            {
+                 CalendarIngreso.SelectedDate = fecha;
+                 CalendarIngreso.VisibleDate = fecha;
+                if (gestionErrores(dtHoy))
+                {
+                    antiguedadCalendario(dtHoy);
+                }
+                else
+                {
+                    txtFecIngEmp.Text = string.Empty;
+                }
+            }
+            else
+            {
+                CalendarIngreso.SelectedDate = dtHoy;
+                CalendarIngreso.VisibleDate = dtHoy;
+            }
+        }
     }
 }

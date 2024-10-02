@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\gespresta\\empleadoscalendar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleadoscalendar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 3\\acme\\gespresta\\empleadoscalendar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\gespresta\\empleadoscalendar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleadoscalendar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\gespresta\\empleados1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleados1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 3\\acme\\gespresta\\empleadoscalendar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleadoscalendar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\gespresta\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -26,24 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EmpleadosCalendar.aspx.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\GesPresta\\EmpleadosCalendar.aspx.cs",
               "RelativeDocumentMoniker": "GesPresta\\EmpleadosCalendar.aspx.cs",
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\GesPresta\\EmpleadosCalendar.aspx.cs",
               "RelativeToolTip": "GesPresta\\EmpleadosCalendar.aspx.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAowFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAwKwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T14:26:56.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmpleadosCalendar.aspx",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\GesPresta\\EmpleadosCalendar.aspx",
               "RelativeDocumentMoniker": "GesPresta\\EmpleadosCalendar.aspx",
@@ -57,19 +53,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Empleados1.aspx",
-              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\GesPresta\\Empleados1.aspx",
-              "RelativeDocumentMoniker": "GesPresta\\Empleados1.aspx",
-              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\GesPresta\\Empleados1.aspx",
-              "RelativeToolTip": "GesPresta\\Empleados1.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-25T17:38:51.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Estilos.css",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 3\\Acme\\GesPresta\\Estilos.css",
               "RelativeDocumentMoniker": "GesPresta\\Estilos.css",
