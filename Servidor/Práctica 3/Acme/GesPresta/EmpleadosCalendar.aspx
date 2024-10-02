@@ -100,23 +100,23 @@
             </div>
             <div class="Antiguedad">
                 <label>Antiguedad:</label>
-                <div class="posAntiguedad">
+                <div>
                     <asp:TextBox ID="txtAnyos" runat="server"></asp:TextBox>
                 </div>
-                <div class="posAntiguedad">
+                <div>
                     <asp:TextBox ID="txtMeses" runat="server"></asp:TextBox>
                 </div>
-                <div class="posAntiguedad">
+                <div>
                     <asp:TextBox ID="txtDias" runat="server"></asp:TextBox>
                 </div>
             </div>
             <div class="Datos">
-                <asp:Label ID="lblError1" runat="server"></asp:Label>
-                <asp:Label ID="lblError2" runat="server"></asp:Label>
-                <asp:Label ID="lblError3" runat="server"></asp:Label>
+                <asp:Label ID="lblError1" runat="server" cssClass="Error"></asp:Label>
+                <asp:Label ID="lblError2" runat="server" cssClass="Error"></asp:Label>
+                <asp:Label ID="lblError3" runat="server" cssClass="Error"></asp:Label>
             </div>
-            <asp:Button ID="cmdEnviar" runat="Server" Text="Enviar" OnClick="cmdEnviar_Click"/> <br />
-            <asp:Label ID="lblValores1" style="background-color: #66FFFF; width: 60%; text-align: center; margin-top:20px" runat="server"></asp:Label>
+            <asp:Label ID="lblValores1" cssClass="Datos" style="background-color: #66FFFF; width: 60%; text-align: center; margin-top:20px" runat="server"></asp:Label>
+            <asp:Button ID="cmdEnviar" runat="Server" Text="Enviar" cssClass="Datos" OnClick="cmdEnviar_Click"/> <br />
     </form>
 </body>
 </html>

@@ -213,15 +213,6 @@ namespace GesPresta
         protected global::System.Web.UI.WebControls.Label lblError3;
 
         /// <summary>
-        /// Control cmdEnviar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button cmdEnviar;
-
-        /// <summary>
         /// Control lblValores1.
         /// </summary>
         /// <remarks>
@@ -229,5 +220,14 @@ namespace GesPresta
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblValores1;
+
+        /// <summary>
+        /// Control cmdEnviar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button cmdEnviar;
     }
 }

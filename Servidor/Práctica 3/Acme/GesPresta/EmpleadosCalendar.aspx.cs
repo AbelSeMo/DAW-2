@@ -38,45 +38,97 @@ namespace GesPresta
 
         protected void CalendarNacimiento_SelectionChanged(object sender, EventArgs e)
         {
-            gestionErrores();
-            txtFecNacEmp.Text = CalendarNacimiento.SelectedDate.ToString();
+            DateTime dtHoy = System.DateTime.Now;
+            gestionErrores(dtHoy);
+            txtFecNacEmp.Text = CalendarNacimiento.SelectedDate.ToShortDateString();
         }
 
         protected void CalendarIngreso_SelectionChanged(object sender, EventArgs e)
         {
-            gestionErrores();
-            antiguedadCalendario();
-            txtFecIngEmp.Text = CalendarIngreso.SelectedDate.ToString();
+            DateTime dtHoy = System.DateTime.Now;
+            if (gestionErrores(dtHoy))
+            {
+                antiguedadCalendario(dtHoy);
+                txtFecIngEmp.Text = CalendarIngreso.SelectedDate.ToShortDateString();
+            }
+            else
+            {
+                txtFecIngEmp.Text = string.Empty;
+            }
         }
-        DateTime dtHoy = System.DateTime.Now;
-        void gestionErrores()
+        private bool gestionErrores(DateTime dtHoy)
         {
+            bool validarError = false;
+
             if(CalendarIngreso.SelectedDate < CalendarNacimiento.SelectedDate)
             {
                 lblError1.Text = "La fecha de ingreso no puede ser inferior a la fecha de nacimiento";
-                CalendarIngreso.SelectedDate = dtHoy;
+                validarError = true;
+            }
+            else
+            {
+                vaciarErrores(1);
+                validarError = false;
             }
 
             if(CalendarIngreso.SelectedDate > dtHoy)
             {
                 lblError2.Text = "La fecha de ingreso de la compañia no puede ser mayor a la actual";
-                CalendarIngreso.SelectedDate = dtHoy;
+                validarError = true;
+            }
+
+            else
+            {
+                vaciarErrores(2);
+                validarError = false;
             }
 
             if (CalendarNacimiento.SelectedDate > dtHoy)
             {
                 lblError3.Text = "La fecha de nacimiento no puede ser mayor a la actual";
-                CalendarNacimiento.SelectedDate = dtHoy;
+                validarError = true;
+            }
+            else
+            {
+                vaciarErrores(3);
+                validarError = false;
+            }
+
+            return !validarError;
+        }
+
+        private void vaciarErrores(int errorNum = 0)
+        {
+            if (errorNum == 0 || errorNum == 1)
+            {
+                lblError1.Text = string.Empty;
+            }
+            if (errorNum == 0 || errorNum == 2)
+            {
+                lblError2.Text = string.Empty;
+            }
+            if (errorNum == 0 || errorNum == 3)
+            {
+                lblError3.Text = string.Empty;
             }
         }
 
-        void antiguedadCalendario()
+        private void antiguedadCalendario(DateTime dtHoy)
         {
-            TimeSpan diferencia = dtHoy - CalendarIngreso.SelectedDate;
-            DateTime fechamin = new DateTime(1, 1, 1);
-            txtAnyos.Text = ((fechamin + diferencia).Year - 1).ToString();
-            txtMeses.Text = ((fechamin + diferencia).Month - 1).ToString();
-            txtDias.Text = ((fechamin + diferencia).Day).ToString();
+            if (CalendarIngreso.SelectedDate <= dtHoy)
+            {
+                TimeSpan diferencia = dtHoy - CalendarIngreso.SelectedDate;
+                DateTime fechamin = new DateTime(1, 1, 1);
+                txtAnyos.Text = ((fechamin + diferencia).Year - 1).ToString();
+                txtMeses.Text = ((fechamin + diferencia).Month - 1).ToString();
+                txtDias.Text = ((fechamin + diferencia).Day).ToString();
+            }
+            else
+            {
+                txtAnyos.Text = string.Empty;
+                txtMeses.Text = string.Empty;
+                txtDias.Text = string.Empty;
+            }
         }
 
     }
