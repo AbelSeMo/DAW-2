@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 4\\acme\\gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\empleados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 4\\acme\\gespresta\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\gespresta\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 338,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Empleados.aspx",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\Empleados.aspx",
+              "RelativeDocumentMoniker": "GesPresta\\Empleados.aspx",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\Empleados.aspx",
+              "RelativeToolTip": "GesPresta\\Empleados.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-03T14:20:50.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\Web.config",
+              "RelativeDocumentMoniker": "GesPresta\\Web.config",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\Web.config",
+              "RelativeToolTip": "GesPresta\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-03T13:13:47.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Estilos.css",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\Estilos.css",
+              "RelativeDocumentMoniker": "GesPresta\\Estilos.css",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\Estilos.css",
+              "RelativeToolTip": "GesPresta\\Estilos.css",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswDYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-25T17:30:20.134Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

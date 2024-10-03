@@ -1,0 +1,82 @@
+﻿body {
+}
+h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+.Datos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.Posicion {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+    .Posicion label {
+        width: 150px;
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    .Posicion input[type="text"],
+    .Posicion select,
+    .Posicion .radio-opciones {
+        width: 100%;
+        padding: 8px;
+    }
+.radio-opciones {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+#cmdEnviar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    align-self: center;
+}
+
+.todoCalendario {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.calendario {
+    width: 48%;
+}
+
+    .calendario label, .calendario input[type="text"] {
+        display: block;
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+.calendario .asp-calendario{
+    width: 100%;
+    padding: 8px;
+}
+
+.Antiguedad {
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.Datos .Error{
+    background-color: red;
+    border-color: orange;
+}
