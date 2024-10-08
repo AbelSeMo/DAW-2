@@ -1,0 +1,40 @@
+html {
+
+    box-sizing: border-box;
+    
+    }
+    
+    *, *:before, *:after {
+    
+    box-sizing: inherit;
+    
+    }
+nav{
+    background-color: #DB96E8;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+header{
+    background-color: #82E98C;
+    width: 60%;
+    display: block;
+    text-align: center;
+}
+section{
+    background-color: #B69EE1;
+    width: calc(100% - 70%);
+    display: inline-block;
+    text-align: center;
+}
+aside{
+    background-color: #F09B9A;
+    width: calc(100% - 70%);
+    float: right;
+    text-align: center;
+}
+footer{
+    background-color: #F2E890;
+    width: 100%;
+    text-align: center;
+}
