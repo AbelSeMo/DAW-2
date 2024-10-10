@@ -17,19 +17,19 @@ nav{
 }
 header{
     background-color: #82E98C;
-    width: 60%;
+    width: calc(100% - 30%);
     display: block;
     text-align: center;
 }
 section{
     background-color: #B69EE1;
-    width: calc(100% - 70%);
+    width: calc(100% - 65%);
     display: inline-block;
     text-align: center;
 }
 aside{
     background-color: #F09B9A;
-    width: calc(100% - 70%);
+    width: calc(100% - 71%);
     float: right;
     text-align: center;
 }
