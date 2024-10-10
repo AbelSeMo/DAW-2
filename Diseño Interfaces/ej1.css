@@ -9,6 +9,12 @@ html {
     box-sizing: inherit;
     
     }
+main{
+    display: flex;
+}
+article{
+    width: 70%;
+}
 nav{
     background-color: #DB96E8;
     width: 100%;
@@ -18,23 +24,23 @@ nav{
 header{
     background-color: #82E98C;
     width: calc(100% - 30%);
-    display: block;
     text-align: center;
 }
 section{
     background-color: #B69EE1;
     width: calc(100% - 65%);
-    display: inline-block;
+    display: left;
     text-align: center;
+    padding: 20px;
 }
 aside{
     background-color: #F09B9A;
-    width: calc(100% - 71%);
-    float: right;
+    width: calc(30% - 24px);
     text-align: center;
 }
 footer{
     background-color: #F2E890;
     width: 100%;
     text-align: center;
+    display: block;
 }
