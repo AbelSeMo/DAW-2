@@ -17,40 +17,66 @@ html {
     body{
         height: 500px;
     }
-    main{
+    main {
         display: flex;
-        height: 300px;
+        height: 350px;
         background-color: #3993DD;
-        float: left;
-        width: calc(100% - 30%);
+        width: 70%;
         flex-direction: column;
+        float: left;
     }
-    article:nth-child(1){
-        height: calc(100% - 50%);
+    
+    article:nth-child(1) {
+        height: calc(100% - 30%);
     }
-    article:nth-child(2){
+    
+    article:nth-child(2) {
         height: calc(100% - 70%);
     }
-    header{
+    
+    header {
         background-color: #DF5C53;
+        height: 60px;
+        width: 100%;
     }
-    nav{
+    
+    nav {
         text-align: left;
         background-color: #EAFA73;
-        float:right;
+        width: 28%;
+        float: right;
+        height: 50px;
     }
-    article{
+    
+    article {
         background-color: #44CF6C;
     }
-    section{
+    
+    section {
         background-color: #A9FDAC;
-        height: calc(50% - 25%);
+        height: calc(33% - 20px);
     }
-    footer{
+    
+    footer {
         background-color: #E0ACD5;
+        clear: both;
     }
-    aside{
+    
+    footer:nth-of-type(1) {
+        background-color: #E0ACD5;
+        height: 40px;
+    }
+    
+    footer:nth-of-type(2) {
+        background-color: #E0ACD5;
+        height: 60px;
+        width: 100%;
+    }
+    
+    aside {
         background-color: #13B6C5;
+        width: 28%;
         float: right;
+        height: 300px;
     }
     
