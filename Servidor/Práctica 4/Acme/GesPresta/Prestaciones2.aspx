@@ -21,7 +21,6 @@
             <div>
                 <uc1:Cabecera runat="server" ID="Cabecera" />
             </div>
-            <div>
                 <div>
                     <h2>Datos de las prestaciones</h2>
                 </div>
@@ -74,8 +73,7 @@
                      </div>
                     </div>
                 </div>
-            </div>
-        </div>
+         </div>
     </form>
 </body>
 </html>
