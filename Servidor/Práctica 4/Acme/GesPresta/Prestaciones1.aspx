@@ -48,7 +48,7 @@
                         <asp:ListItem>Otras</asp:ListItem>
                         </asp:DropDownList> <br />
                     </div>
-                    <asp:Button ID="cmdEnviar" runat="Server" Text="Enviar" PostBackUrl="~/Prestaciones1Respuesta.aspx"/>
+                    <asp:Button ID="cmdEnviar" runat="Server" Text="Enviar"/>
                 </div>
             </div>
         </div>
