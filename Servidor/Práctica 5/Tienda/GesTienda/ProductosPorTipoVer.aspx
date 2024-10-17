@@ -5,10 +5,15 @@
     <div class="contenidotitulo">Productos por tipo</div>
     <div class="contenidotitulo">Tipos de productos</div> 
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [TIPO]"></asp:SqlDataSource>
-    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [PRODUCTO]"></asp:SqlDataSource>
+    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [PRODUCTO] WHERE ([IdTipo] = @IdTipo)">
+        <SelectParameters>
+            <asp:ControlParameter ControlID="grdTipos" Name="IdTipo" PropertyName="SelectedValue" Type="String" />
+        </SelectParameters>
+    </asp:SqlDataSource>
     <asp:GridView ID="grdTipos" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" AllowPaging="True" AutoGenerateColumns="False" DataKeyNames="IdTipo" DataSourceID="SqlDataSource1" HorizontalAlign="Center" PageSize="5" Width="50%">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
         <Columns>
+            <asp:CommandField ShowSelectButton="True" />
             <asp:BoundField DataField="IdTipo" HeaderText="Código" ReadOnly="True" SortExpression="IdTipo" />
             <asp:BoundField DataField="DesTip" HeaderText="Descripción" SortExpression="DesTip" />
         </Columns>
@@ -30,7 +35,9 @@
             <Columns>
                 <asp:BoundField DataField="IdProducto" HeaderText="Id Producto" ReadOnly="True" SortExpression="IdProducto" />
                 <asp:BoundField DataField="DesPro" HeaderText="Descripción" SortExpression="DesPro" />
-                <asp:BoundField DataField="PrePro" HeaderText="Precio" SortExpression="PrePro" />
+                <asp:BoundField DataField="PrePro" HeaderText="Precio" SortExpression="PrePro" DataFormatString="{0:n2}" >
+                <ItemStyle HorizontalAlign="Right" />
+                </asp:BoundField>
                 <asp:BoundField DataField="IdUnidad" HeaderText="Unidad" SortExpression="IdUnidad" />
                 <asp:BoundField DataField="IdTipo" HeaderText="Tipo" SortExpression="IdTipo" />
             </Columns>
