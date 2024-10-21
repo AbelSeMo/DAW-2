@@ -77,3 +77,22 @@
 .verticalMitad {
     vertical-align: middle;
 }
+.h1Error {
+    text-align: center;
+}
+
+.h3Error {
+    text-align: center;
+}
+
+.MostrarError {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
