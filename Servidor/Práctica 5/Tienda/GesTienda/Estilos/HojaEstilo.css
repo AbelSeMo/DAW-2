@@ -96,3 +96,21 @@
     border-width: 2px;
     padding: 10px;
 }
+.contenidoPagina {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.contenidoMostrarGrid {
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.mostrarGrid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
