@@ -8,13 +8,13 @@
     <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT [IdProducto], [DesPro], [PrePro] FROM [PRODUCTO]"></asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [UNIDAD]"></asp:SqlDataSource>
     <asp:SqlDataSource ID="SqlDataSource3" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [TIPO]"></asp:SqlDataSource>
-    <asp:GridView ID="grdProductos" runat="server" AllowPaging="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="IdProducto" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None">
+    <asp:GridView ID="grdProductos" runat="server" AllowPaging="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="IdProducto" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" OnSelectedIndexChanged="grdProductos_SelectedIndexChanged">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
         <Columns>
             <asp:CommandField ShowSelectButton="True" />
             <asp:BoundField DataField="IdProducto" HeaderText="IdProducto" ReadOnly="True" SortExpression="IdProducto" />
             <asp:BoundField DataField="DesPro" HeaderText="Descripción" SortExpression="DesPro" />
-            <asp:BoundField DataField="PrePro" HeaderText="Precio" SortExpression="PrePro">
+            <asp:BoundField DataField="PrePro" HeaderText="Precio" SortExpression="PrePro" DataFormatString="{0:n2}">
             <ItemStyle HorizontalAlign="Right" />
             </asp:BoundField>
         </Columns>
@@ -54,13 +54,13 @@
     <asp:DropDownList ID="ddlIdTipo" runat="server" Enabled="False" DataSourceID="SqlDataSource3" DataTextField="DesTip" DataValueField="IdTipo">
     </asp:DropDownList>
             </div>
-    <asp:Button ID="btnNuevo" runat="server" Text="Nuevo" Visible="True"/>
-    <asp:Button ID="btnEditar" runat="server" Text="Editar" Visible="false"/>
+    <asp:Button ID="btnNuevo" runat="server" Text="Nuevo" Visible="True" OnClick="btnNuevo_Click"/>
+    <asp:Button ID="btnEditar" runat="server" Text="Editar" Visible="false" OnClick="btnEditar_Click"/>
     <asp:Button ID="btnEliminar" runat="server" Text="Eliminar" Visible="false"/>
-    <asp:Button ID="btnInsertar" runat="server" Text="Insertar" Visible="false"/>
-    <asp:Button ID="btnModificar" runat="server" Text="Modificar" Visible="false"/>
+    <asp:Button ID="btnInsertar" runat="server" Text="Insertar" Visible="false" OnClick="btnInsertar_Click"/>
+    <asp:Button ID="btnModificar" runat="server" Text="Modificar" Visible="false" OnClick="btnModificar_Click"/>
     <asp:Button ID="btnBorrar" runat="server" Text="Borrar" Visible="false"/>
-    <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" Visible="false"/>
+    <asp:Button ID="btnCancelar" runat="server" Text="Cancelar" Visible="false" OnClick="btnCancelar_Click"/>
     <br />
       </div>
     </div>

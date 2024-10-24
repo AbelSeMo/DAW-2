@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 5\\tienda\\gestienda\\productosmantener.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\productosmantener.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 5\\tienda\\gestienda\\productosmantener.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\productosmantener.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 60,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ProductosMantener.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\ProductosMantener.aspx.cs",
+              "RelativeDocumentMoniker": "GesTienda\\ProductosMantener.aspx.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\ProductosMantener.aspx.cs",
+              "RelativeToolTip": "GesTienda\\ProductosMantener.aspx.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAwMEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:11:47.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HojaEstilo.css",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\Estilos\\HojaEstilo.css",
               "RelativeDocumentMoniker": "GesTienda\\Estilos\\HojaEstilo.css",
@@ -35,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductosMantener.aspx",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\ProductosMantener.aspx",
               "RelativeDocumentMoniker": "GesTienda\\ProductosMantener.aspx",
