@@ -1,0 +1,40 @@
+html {box-sizing: border-box; }
+
+*, *:before, *:after {box-sizing: inherit; }
+*{
+    margin: 0;
+  }
+  
+main{
+    border-radius: 20px;
+    border: 3px solid;
+    /* width: 100%; */
+    /* max-width: 600px; */
+    overflow:clip; 
+    margin: 20px;
+   
+header{
+    background-color: #493696;
+    color: #9FAFC1;
+    padding: 6px;
+    }
+footer{
+    background-color: #493696;
+    color: #9FAFC1;
+    padding: 6px;
+
+}
+section{
+  display: flex;
+}
+article{
+    background-color: #232323;
+    color: #9FAFC1;
+    width: 50%;
+    padding: 6px;
+    }
+
+aside{
+  width: 50%;
+}}
+
