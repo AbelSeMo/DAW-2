@@ -1,0 +1,75 @@
+main{
+    display: flex;
+   
+    /* flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around; */
+
+
+    /* border: 5px solid black; */
+     /* height: 90vh; */
+     /* align-items: flex-start;
+     align-items: flex-end;
+     align-items: center; */
+
+     /* flex-wrap: wrap;
+     flex-wrap: nowrap;
+     flex-wrap: wrap-reverse; */
+
+     /* border: 5px solid black; 
+     height: 90vh;
+     flex-wrap: wrap; */
+     /* align-content: flex-start;
+     align-content: flex-end; */
+
+    /* border: 5px solid black; 
+     height: 90vh;
+     flex-wrap: wrap; 
+     align-content: flex-start; */
+     /* column-gap: 1em; */
+     /* row-gap: 1em; */
+
+
+
+     /* border: 5px solid black; 
+     height: 90vh;
+     align-content: flex-start; */
+     
+        /* #box1{
+            align-self: center;} */
+
+        /* #box2{
+            align-self: end;} */
+            
+        /* #box3{
+                order:1;} */
+        /* #box3{
+                    order:-11;} */
+}
+
+section{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: hsl(0, 100%, 70%);
+}
+#box2{
+    background-color: hsl(52, 100%, 70%);
+}
+#box3{
+    background-color: hsl(111, 100%, 70%);
+}
+#box4{
+    background-color: hsl(201, 100%, 70%);
+}
