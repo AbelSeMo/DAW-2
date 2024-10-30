@@ -9,7 +9,7 @@ main{
     border-radius: 20px;
     border: 3px solid;
     /* width: 100%; */
-    /* max-width: 600px; */
+    max-width: 600px;
     overflow:clip; 
     margin: 20px;
    
@@ -26,15 +26,25 @@ footer{
 }
 section{
   display: flex;
+  height: 300px;
 }
 article{
     background-color: #232323;
     color: #9FAFC1;
-    width: 50%;
+    width: 40%;
     padding: 6px;
     }
 
-aside{
-  width: 50%;
-}}
-
+    aside {
+      width: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px;
+  }
+  img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }}
