@@ -113,28 +113,34 @@ namespace GesTienda
 
             strIdProducto = txtIdProducto.Text;
             strDescripcion = txtDesPro.Text;
-            dcPrecio = Convert.ToDecimal(txtPrePro.Text);
+            dcPrecio = Convert.ToDecimal(FnComaPorPunto(txtPrePro.Text));
             strIdUnidad = ddlIdUnidad.SelectedItem.Text;
             strIdTipo = ddlIdTipo.SelectedItem.Value;
             string StrCadenaConexion =
                ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
-            string StrComandoSql = "INSERT PRODUCTO " +
-                       "(IdProducto,DesPro,PrePro,IdUnidad,IdTipo) VALUES (" +
-                       "'" + strIdProducto + "','" + strDescripcion +
-                       "'," + FnComaPorPunto(dcPrecio) +
-                       ",'" + strIdUnidad + "','" + strIdTipo + "');";
+            string StrComandoSql = "INSERT INTO PRODUCTO (IdProducto, DesPro, PrePro, IdUnidad, IdTipo) " +
+                       "VALUES (@IdProducto, @DesPro, @PrePro, @IdUnidad, @IdTipo)";
             using (SqlConnection conexion = new SqlConnection(StrCadenaConexion))
             {
                 try
                 {
                     conexion.Open();
-                    SqlCommand comando = conexion.CreateCommand();
-                    comando.CommandText = StrComandoSql;
-                    int inRegistrosAfectados = comando.ExecuteNonQuery();
-                    if (inRegistrosAfectados == 1)
-                        lblMensajes.Text = "Registro insertado correctamente";
-                    else
-                        lblMensajes.Text = "Error al insertar el registro";
+                    using (SqlCommand comando = new SqlCommand(StrComandoSql, conexion))
+                    {
+                        // Asignación de valores a los parámetros
+                        comando.Parameters.AddWithValue("@IdProducto", strIdProducto);
+                        comando.Parameters.AddWithValue("@DesPro", strDescripcion);
+                        comando.Parameters.AddWithValue("@PrePro", dcPrecio);
+                        comando.Parameters.AddWithValue("@IdUnidad", strIdUnidad);
+                        comando.Parameters.AddWithValue("@IdTipo", strIdTipo);
+
+                        int inRegistrosAfectados = comando.ExecuteNonQuery();
+
+                        if (inRegistrosAfectados == 1)
+                            lblMensajes.Text = "Registro modificado correctamente";
+                        else
+                            lblMensajes.Text = "Error al modificar el registro";
+                    }
                     btnNuevo.Visible = true;
                     btnEditar.Visible = false;
                     btnEliminar.Visible = false;
@@ -156,10 +162,9 @@ namespace GesTienda
             grdProductos.SelectedIndex = -1;
             FnDeshabilitarControles();
         }
-        protected string FnComaPorPunto(decimal Numero)
+        protected string FnComaPorPunto(string Numero)
         {
-            string StrNumero = Convert.ToString(Numero);
-            string stNumeroConPunto = String.Format("{0}", StrNumero.Replace(',', '.'));
+            string stNumeroConPunto = String.Format("{0}", Numero.Replace('.', ','));
             return (stNumeroConPunto);
         }
 
@@ -191,22 +196,33 @@ namespace GesTienda
             unidadProducto = ddlIdUnidad.SelectedItem.Text;
             tipoProducto = ddlIdTipo.SelectedItem.Value;
             idProducto = txtIdProducto.Text;
-            precioProducto = Convert.ToDecimal(txtPrePro.Text);
+            precioProducto = Convert.ToDecimal(FnComaPorPunto(txtPrePro.Text));
             string StrCadenaConexion = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
-            string StrComandoSql = "UPDATE PRODUCTO SET " + "DesPro = '" + descripcionProducto + "', " + "PrePro = " + FnComaPorPunto(precioProducto) +
-                                   ", " + "IdUnidad = '" + unidadProducto + "', " + "IdTipo = '" + tipoProducto + "'" + " WHERE IdProducto = '" + idProducto + "';";
+            string strComandoSql = "UPDATE PRODUCTO SET DesPro = @DesPro, PrePro = @PrePro, IdUnidad = @IdUnidad, IdTipo = @IdTipo WHERE IdProducto = @IdProducto";
+
             using (SqlConnection conexion = new SqlConnection(StrCadenaConexion))
             {
                 try
                 {
                     conexion.Open();
-                    SqlCommand comando = conexion.CreateCommand();
-                    comando.CommandText = StrComandoSql;
-                    int inRegistrosAfectados = comando.ExecuteNonQuery();
-                    if (inRegistrosAfectados == 1)
-                        lblMensajes.Text = "Registro modificado correctamente";
-                    else
-                        lblMensajes.Text = "Error al modificar el registro";
+                    using (SqlCommand comando = new SqlCommand(strComandoSql, conexion))
+                    {
+                        // Asignación de valores a los parámetros
+                        comando.Parameters.AddWithValue("@DesPro", descripcionProducto);
+                        comando.Parameters.AddWithValue("@PrePro", precioProducto);
+                        comando.Parameters.AddWithValue("@IdUnidad", unidadProducto);
+                        comando.Parameters.AddWithValue("@IdTipo", tipoProducto);
+                        comando.Parameters.AddWithValue("@IdProducto", idProducto);
+
+                        int inRegistrosAfectados = comando.ExecuteNonQuery();
+
+                        if (inRegistrosAfectados == 1)
+                            lblMensajes.Text = "Registro modificado correctamente";
+                        else
+                            lblMensajes.Text = "Error al modificar el registro";
+                    }
+
+                    // Actualizar visibilidad de los botones
                     btnNuevo.Visible = true;
                     btnEditar.Visible = false;
                     btnEliminar.Visible = false;
@@ -217,10 +233,10 @@ namespace GesTienda
                 }
                 catch (SqlException ex)
                 {
-                    string StrError = "<p>Se han producido errores en el acceso a la base de datos.</p>";
-                    StrError = StrError + "<div>Código: " + ex.Number + "</div>";
-                    StrError = StrError + "<div>Descripción: " + ex.Message + "</div>";
-                    lblMensajes.Text = StrError;
+                    string strError = "<p>Se han producido errores en el acceso a la base de datos.</p>";
+                    strError += $"<div>Código: {ex.Number}</div>";
+                    strError += $"<div>Descripción: {ex.Message}</div>";
+                    lblMensajes.Text = strError;
                     return;
                 }
             }
@@ -240,6 +256,60 @@ namespace GesTienda
             btnModificar.Visible = true;
             btnBorrar.Visible = false;
             btnCancelar.Visible = true;
+        }
+
+        protected void btnEliminar_Click(object sender, EventArgs e)
+        {
+            btnNuevo.Visible = false;
+            btnEditar.Visible = false;
+            btnEliminar.Visible = false;
+            btnInsertar.Visible = false;
+            btnModificar.Visible = false;
+            btnBorrar.Visible = true;
+            btnCancelar.Visible = true;
+        }
+
+        protected void btnBorrar_Click(object sender, EventArgs e)
+        {
+            lblMensajes.Text = "";
+            String strIdProducto;
+
+            strIdProducto = txtIdProducto.Text;
+            string StrCadenaConexion =
+               ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
+            string StrComandoSql = "DELETE FROM PRODUCTO WHERE IdProducto = '" + strIdProducto + "';";
+            using (SqlConnection conexion = new SqlConnection(StrCadenaConexion))
+            {
+                try
+                {
+                    conexion.Open();
+                    SqlCommand comando = conexion.CreateCommand();
+                    comando.CommandText = StrComandoSql;
+                    int inRegistrosAfectados = comando.ExecuteNonQuery();
+                    if (inRegistrosAfectados == 1)
+                        lblMensajes.Text = "Registro eliminado correctamente";
+                    else
+                        lblMensajes.Text = "Error al eliminar el registro";
+                    btnNuevo.Visible = true;
+                    btnEditar.Visible = false;
+                    btnEliminar.Visible = false;
+                    btnInsertar.Visible = false;
+                    btnModificar.Visible = false;
+                    btnBorrar.Visible = false;
+                    btnCancelar.Visible = false;
+                }
+                catch (SqlException ex)
+                {
+                    string StrError = "<p>Se han producido errores en el acceso a la base de datos.</p>";
+                    StrError = StrError + "<div>Código: " + ex.Number + "</div>";
+                    StrError = StrError + "<div>Descripción: " + ex.Message + "</div>";
+                    lblMensajes.Text = StrError;
+                    return;
+                }
+            }
+            grdProductos.DataBind();         // Vuelve a enlazar el GridView para que se actualicen los datos 
+            grdProductos.SelectedIndex = -1;
+            FnDeshabilitarControles();
         }
     }
 }
