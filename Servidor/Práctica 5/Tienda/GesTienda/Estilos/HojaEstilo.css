@@ -116,5 +116,24 @@
 }
 h3 {
     text-align: center;
-    margin-top: 55px;
+    margin-top: 20px;
 }
+.baseRegistro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.posicionRegistro {
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 80%
+}
+
+    .posicionRegistro input[type="text"] {
+        width: 100%;
+    }

@@ -40,7 +40,7 @@
                                 <td>
                                     <table cellpadding="0">
                                         <tr>
-                                            <td align="center" colspan="2" class="auto-style1">Iniciar sesión</td>
+                                            <td align="center" colspan="2" class="auto-style1"></td>
                                         </tr>
                                         <tr>
                                             <td align="right">
@@ -80,7 +80,8 @@
                     </LayoutTemplate>
                 </asp:Login>
                 </div>
-            <asp:Label ID="lblMensajes" ForeColor="red" runat="server" style="display:flex; justify-content:center;"></asp:Label> 
+            <asp:Label ID="lblMensajes" ForeColor="red" runat="server" style="display:flex; justify-content:center;"></asp:Label> <br />
+            <asp:LinkButton runat="server" ID="linkButtonStart" style="margin-top:10px; display:flex; justify-content:center;" PostBackUrl="~/Registrarse.aspx">Registrarse</asp:LinkButton>
             </div>
             <div id="pie">
     <br />
