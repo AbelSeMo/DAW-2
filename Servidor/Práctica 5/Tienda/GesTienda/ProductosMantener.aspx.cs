@@ -168,6 +168,12 @@ namespace GesTienda
             return (stNumeroConPunto);
         }
 
+        protected string FnEuroPorNada(string Numero)
+        {
+            string stEuroNada = String.Format("{0}", Numero.Replace('€',' '));
+            return (stEuroNada);
+        }
+
         protected void btnCancelar_Click(object sender, EventArgs e)
         {
             lblMensajes.Text = "";
@@ -190,13 +196,18 @@ namespace GesTienda
         protected void btnModificar_Click(object sender, EventArgs e)
         {
             lblMensajes.Text = "";
-            String descripcionProducto, unidadProducto, tipoProducto, idProducto;
+            String descripcionProducto, unidadProducto, tipoProducto, idProducto, precioTexto;
             Decimal precioProducto;
             descripcionProducto = txtDesPro.Text;
             unidadProducto = ddlIdUnidad.SelectedItem.Text;
             tipoProducto = ddlIdTipo.SelectedItem.Value;
             idProducto = txtIdProducto.Text;
-            precioProducto = Convert.ToDecimal(FnComaPorPunto(txtPrePro.Text));
+            precioTexto = FnEuroPorNada(txtPrePro.Text);
+            if(!decimal.TryParse(FnComaPorPunto(precioTexto), out decimal precioComprobado)){
+                lblMensajes.Text = "No se admiten letras, solo numeros";
+                return;
+            }
+            precioProducto = precioComprobado;
             string StrCadenaConexion = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
             string strComandoSql = "UPDATE PRODUCTO SET DesPro = @DesPro, PrePro = @PrePro, IdUnidad = @IdUnidad, IdTipo = @IdTipo WHERE IdProducto = @IdProducto";
 

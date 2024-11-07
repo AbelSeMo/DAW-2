@@ -15,7 +15,7 @@
             <asp:CommandField ShowSelectButton="True" />
             <asp:BoundField DataField="IdProducto" HeaderText="IdProducto" ReadOnly="True" SortExpression="IdProducto" />
             <asp:BoundField DataField="DesPro" HeaderText="Descripción" SortExpression="DesPro" />
-            <asp:BoundField DataField="PrePro" HeaderText="Precio" SortExpression="PrePro" DataFormatString="{0:n2}">
+            <asp:BoundField DataField="PrePro" HeaderText="Precio" SortExpression="PrePro" DataFormatString="{0:c}">
             <ItemStyle HorizontalAlign="Right" />
             </asp:BoundField>
         </Columns>

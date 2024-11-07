@@ -66,7 +66,7 @@
             <asp:Button ID="btnInsertar" runat="server" Text="Insertar" style="width:100px;" OnClick="btnInsertar_Click"/>
             <asp:LinkButton runat="server" ID="linkButtonStart" style="margin-top:10px;" PostBackUrl="~/Default.aspx">Ir a inicio</asp:LinkButton>
         </div>
-        <asp:Label ID="lblMensajes" ForeColor="red" runat="server" style="display:flex; justify-content:center;"></asp:Label>
+        <asp:Label ID="lblMensajes" ForeColor="red" runat="server" style="display:flex; justify-content:center; text-align: center; flex-direction:column;"></asp:Label>
     <div id="pie">
     <br />
     <br />

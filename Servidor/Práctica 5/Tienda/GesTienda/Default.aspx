@@ -29,9 +29,9 @@
        <br />
    </div>
         </div>
-            <div style="margin-top:50px; font-size: x-large; font-weight: bold; text-align: center;">Mantenimiento productos</div> 
+            <div style="margin-top:50px; font-size: x-large; font-weight: bold; text-align: center;">GesTienda</div> 
                 <h3>Iniciar Sesión</h3>
-            <div style="display:flex; justify-content:center;">
+            <div class="baseRegistro">
 
                 <asp:Login ID="Login1" runat="server" OnAuthenticate="Login1_Authenticate">
                     <LayoutTemplate>
@@ -47,7 +47,7 @@
                                                 <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName">Nombre de usuario:</asp:Label>
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="UserName" runat="server"></asp:TextBox>
+                                                <asp:TextBox ID="UserName" runat="server" style="width:89%;"></asp:TextBox>
                                                 <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" ErrorMessage="El nombre de usuario es obligatorio." ToolTip="El nombre de usuario es obligatorio." ValidationGroup="Login1">*</asp:RequiredFieldValidator>
                                             </td>
                                         </tr>
@@ -56,7 +56,7 @@
                                                 <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password">Contraseña:</asp:Label>
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="Password" runat="server" TextMode="Password"></asp:TextBox>
+                                                <asp:TextBox ID="Password" runat="server" TextMode="Password" style="width:89%;"></asp:TextBox>
                                                 <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" ErrorMessage="La contraseña es obligatoria." ToolTip="La contraseña es obligatoria." ValidationGroup="Login1">*</asp:RequiredFieldValidator>
                                             </td>
                                         </tr>

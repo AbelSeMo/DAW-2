@@ -3,24 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\gestienda\\estilos\\hojaestilo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\estilos\\hojaestilo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\gestienda\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\gestienda\\registrarse.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\registrarse.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 5\\tienda\\gestienda\\tiposver.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\tiposver.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 5\\tienda\\gestienda\\registrarse.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\registrarse.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 5\\tienda\\gestienda\\productosmantener.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\productosmantener.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 5\\tienda\\gestienda\\estilos\\hojaestilo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\estilos\\hojaestilo.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\gestienda\\productosver.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\productosver.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\gestienda\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 5\\tienda\\gestienda\\productosmantener.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\productosmantener.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\gestienda\\tiposver.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D470515E-605C-4753-A091-FDDBFE2BC62B}|GesTienda\\GesTienda.csproj|solutionrelative:gestienda\\tiposver.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQL15/C__USERS_ABESERMON_DOCUMENTS_GITHUB_DAW_2_SERVIDOR_PR\u00C1CTICA_5_TIENDA_GESTIENDA_APP_DATA_TIENDA.MDF/True/SqlTable/dbo.USUARIO.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +45,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 60,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "TiposVer.aspx",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\TiposVer.aspx",
               "RelativeDocumentMoniker": "GesTienda\\TiposVer.aspx",
@@ -47,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ProductosVer.aspx",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\ProductosVer.aspx",
               "RelativeDocumentMoniker": "GesTienda\\ProductosVer.aspx",
@@ -55,11 +70,12 @@
               "RelativeToolTip": "GesTienda\\ProductosVer.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-05T17:57:31.915Z"
+              "WhenOpened": "2024-11-05T17:57:31.915Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "HojaEstilo.css",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\Estilos\\HojaEstilo.css",
               "RelativeDocumentMoniker": "GesTienda\\Estilos\\HojaEstilo.css",
@@ -72,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Default.aspx",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\Default.aspx",
               "RelativeDocumentMoniker": "GesTienda\\Default.aspx",
@@ -80,7 +96,8 @@
               "RelativeToolTip": "GesTienda\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-11-05T17:51:00.747Z"
+              "WhenOpened": "2024-11-05T17:51:00.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -93,6 +110,55 @@
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-11-05T16:06:09.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Registrarse.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\Registrarse.aspx.cs",
+              "RelativeDocumentMoniker": "GesTienda\\Registrarse.aspx.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\Registrarse.aspx.cs",
+              "RelativeToolTip": "GesTienda\\Registrarse.aspx.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwFAAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T15:18:27.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductosMantener.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\ProductosMantener.aspx.cs",
+              "RelativeDocumentMoniker": "GesTienda\\ProductosMantener.aspx.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\ProductosMantener.aspx.cs",
+              "RelativeToolTip": "GesTienda\\ProductosMantener.aspx.cs",
+              "ViewState": "AgIAACYBAAAAAAAAAAAgwNEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T14:47:35.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductosMantener.aspx",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\ProductosMantener.aspx",
+              "RelativeDocumentMoniker": "GesTienda\\ProductosMantener.aspx",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 5\\Tienda\\GesTienda\\ProductosMantener.aspx",
+              "RelativeToolTip": "GesTienda\\ProductosMantener.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-07T14:54:28.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.USUARIO [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQL15/C__USERS_ABESERMON_DOCUMENTS_GITHUB_DAW_2_SERVIDOR_PR\u00C1CTICA_5_TIENDA_GESTIENDA_APP_DATA_TIENDA.MDF/True/SqlTable/dbo.USUARIO.sql",
+              "ToolTip": "dbo.USUARIO [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-07T14:55:16.597Z",
               "EditorCaption": ""
             }
           ]

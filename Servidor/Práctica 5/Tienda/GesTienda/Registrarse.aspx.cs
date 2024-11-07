@@ -19,7 +19,7 @@ namespace GesTienda
         protected void btnInsertar_Click(object sender, EventArgs e)
         {
             lblMensajes.Text = "";
-            if (txtPassword1.Text == txtPassword2.Text)
+            if (txtPassword1.Text == txtPassword2.Text && txtPassword1.Text.Length > 0 && txtPassword2.Text.Length > 0 && txtCorCli.Text.Length > 0)
             {
                 string strLogin, strPassword, strRol, strFechaAlta;
                 DateTime dtFechaAlta;
@@ -78,7 +78,15 @@ namespace GesTienda
             }
             else
             {
-                lblMensajes.Text = "Se ha producido un error. Valores de contraseña no coincidentes";
+                if(txtPassword1.Text.Length == 0 || txtPassword2.Text.Length == 0 || txtPassword1.Text != txtPassword2.Text)
+                {
+                    lblMensajes.Text = "Se ha producido un error. Valores de contraseña no coincidentes o inexistentes <br>";
+                }
+                    
+                if (txtCorCli.Text.Length == 0)
+                {
+                    lblMensajes.Text += "Se ha producido un error. No ha insertado un correo válido";
+                }
             }
         }
     }
