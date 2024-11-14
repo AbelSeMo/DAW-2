@@ -1,0 +1,25 @@
+html {box-sizing: border-box; }
+
+*, *:before, *:after {box-sizing: inherit; }
+
+main{
+    background-color: aqua;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+
+.navegador{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    .lista{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40%;
+    }
+    li{
+        align-content: space-between;
+    }
+}
