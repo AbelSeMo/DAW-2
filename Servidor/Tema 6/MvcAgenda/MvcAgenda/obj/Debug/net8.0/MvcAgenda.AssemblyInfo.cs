@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcAgenda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81b7be53e70513be70d89b0962fa921934d1d6ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2713576eb705ca342211d4800a9e7edac758b037")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcAgenda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcAgenda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
