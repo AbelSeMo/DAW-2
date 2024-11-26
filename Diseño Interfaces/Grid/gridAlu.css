@@ -12,30 +12,35 @@ section{
     padding: 10px;
     text-align: center;
 }
-
 .item1{
     grid-column: 1/2;
     grid-row: 1/4;
     display: flex;
     flex-direction: column;
     .nieto1{
-        flex-basis: 50%;
+        flex-basis: 70%;
     }
-    .nieto2, .nieto3{
-        flex-basis: 25%;
+    .nieto2{
+        flex-basis: 10%;
+    }
+    .nieto3{
+        flex-basis: 20%;
     }
 }
 
 .item2{
     grid-column: 2/4;
     grid-row: 1/2;
+ article{
     display: flex;
-    flex-wrap: wrap;
-.niet1,.niet2,.niet3{
-    width: 24%;
+    text-align: center;
+    flex-direction: row;
 }
-.niet4,.niet5{
-    width: 40.5%;
+.niet1, .niet2, .niet3{
+    width: calc(100%/3);
+}
+.niet4, .niet5 {
+    width: 50%;
 }
 }
 
