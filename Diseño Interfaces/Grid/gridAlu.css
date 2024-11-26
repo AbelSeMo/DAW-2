@@ -32,10 +32,10 @@ section{
     display: flex;
     flex-wrap: wrap;
 .niet1,.niet2,.niet3{
-    flex-basis: calc(60% - 40%);
+    width: 24%;
 }
 .niet4,.niet5{
-    flex-basis: calc(60% - 30%);
+    width: 40.5%;
 }
 }
 

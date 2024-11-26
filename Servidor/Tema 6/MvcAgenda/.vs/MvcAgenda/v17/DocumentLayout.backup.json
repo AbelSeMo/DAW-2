@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\data\\mvcagendacontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\data\\mvcagendacontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\controllers\\departamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\controllers\\departamentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -11,24 +27,12 @@
       "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\data\\mvcagendacontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\data\\mvcagendacontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\models\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 60,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,33 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\appsettings.json",
-              "RelativeDocumentMoniker": "MvcAgenda\\appsettings.json",
-              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\appsettings.json",
-              "RelativeToolTip": "MvcAgenda\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T17:58:29.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MvcAgendaContexto.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Data\\MvcAgendaContexto.cs",
               "RelativeDocumentMoniker": "MvcAgenda\\Data\\MvcAgendaContexto.cs",
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Data\\MvcAgendaContexto.cs",
               "RelativeToolTip": "MvcAgenda\\Data\\MvcAgendaContexto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T17:50:53.519Z",
+              "WhenOpened": "2024-11-26T17:31:17.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Tarea.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Models\\Tarea.cs",
               "RelativeDocumentMoniker": "MvcAgenda\\Models\\Tarea.cs",
@@ -106,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Departamento.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Models\\Departamento.cs",
               "RelativeDocumentMoniker": "MvcAgenda\\Models\\Departamento.cs",
@@ -114,12 +105,11 @@
               "RelativeToolTip": "MvcAgenda\\Models\\Departamento.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T17:39:38.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T17:39:38.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Program.cs",
               "RelativeDocumentMoniker": "MvcAgenda\\Program.cs",
@@ -132,20 +122,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MvcAgenda\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MvcAgenda\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAACVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAACVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-18T16:20:00.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\appsettings.json",
+              "RelativeDocumentMoniker": "MvcAgenda\\appsettings.json",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\appsettings.json",
+              "RelativeToolTip": "MvcAgenda\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T17:37:31.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepartamentosController.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Controllers\\DepartamentosController.cs",
+              "RelativeDocumentMoniker": "MvcAgenda\\Controllers\\DepartamentosController.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Controllers\\DepartamentosController.cs",
+              "RelativeToolTip": "MvcAgenda\\Controllers\\DepartamentosController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:47:54.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MvcAgenda\\Controllers\\HomeController.cs",
@@ -153,12 +169,11 @@
               "RelativeToolTip": "MvcAgenda\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T16:15:44.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T16:15:44.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "bootstrap.css",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "RelativeDocumentMoniker": "MvcAgenda\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -166,8 +181,7 @@
               "RelativeToolTip": "MvcAgenda\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-18T16:11:12.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T16:11:12.528Z"
             }
           ]
         }
