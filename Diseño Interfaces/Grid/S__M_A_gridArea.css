@@ -4,8 +4,8 @@ main{
                          "sec5 sec6 sec7 sec7 sec4"
                          "sec5 sec8 sec7 sec7 sec9"
                          "sec10 sec8 sec11 sec12 sec12";
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; */
     width: 60vh;
     height: 50vh;
     border-style: solid;
@@ -72,9 +72,12 @@ main{
 .sec11{
     background-color:#EB8176;
     grid-area: sec11;
+    /* z-index: 2; */
 }
 
 .sec12{
     background-color:#E7769F;
     grid-area: sec12;
+    grid-column: 3/6;
+    z-index: -1;
 }

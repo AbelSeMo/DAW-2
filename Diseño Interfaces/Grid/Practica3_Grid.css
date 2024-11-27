@@ -1,0 +1,15 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: max-content;
+    width: max-content;
+    grid-template-areas: "texto1 texto1 imgPromo1 imgPromo2 texto2"
+                         "texto1 texto1 imgPromo3 imgPromo3 imgPromo4"
+                         "imgPromo5 imgPromo5 imgPromo5 texto3 texto3"
+                         "imgPromo5 imgPromo5 imgPromo5 texto3 texto3"
+                         "imgPromo6 imgPromo7 texto4 imgPromo8 imgPromo9";
+    *{
+        margin: 10px;
+    }
+}
