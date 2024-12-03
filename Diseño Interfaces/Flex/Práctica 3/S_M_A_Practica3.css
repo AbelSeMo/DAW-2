@@ -3,13 +3,38 @@ html {box-sizing: border-box; }
 *, *:before, *:after {box-sizing: inherit; }
 
 main{
-    background-color: aqua;
+    background-image: url(./Oficina.jpg);
+    background-position: center;
+    background-size: cover;
+    color:white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+    ;
+
+}
+header{
+    text-align: end;
+    width: 80%;
+    a{
+        margin-right: 10px;
+    }
 }
 ul{
     list-style: none;
     display: flex;
 }
-
+img{
+    object-fit: contain;
+    height: 100px;
+}
+button{
+    color:white;
+    background-color: transparent;
+    border: none;
+    height: 100px;
+}
 .navegador{
     display: flex;
     justify-content: space-evenly;
@@ -20,8 +45,63 @@ ul{
         width: 40%;
     }
     li{
-        align-content: space-between;
+        color:white;
+        height: 100px;
+        align-content: center;
+    }
+    .solu{
+        height: 100px;
+        background-color: transparent;
+        border: none;
+        color:white;
+    }
+    .btnEmpezar{
+        background-color: var(--color2);
+        border-style: solid;
+        height: 50px;
+        border-color: var(--color1);
+        border-width: 2px;
+    }
+    .btnIniciar{
+        margin-left: 10px;
+        border-style: solid;
+        height: 50px;
+        border-width: 2px;
     }
 }
 
-/*https://es.stackoverflow.com/questions/177954/c%c3%b3mo-ajustar-tama%c3%b1o-de-imagen-cuando-minimizo-la-pantalla?rq=1*/
+.centralSection{
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        font-size: 3.1vw;
+    }
+    article{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    button{
+        height: 50px;
+        background-color: var(--color2);
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    span{
+        display: flex;
+        align-self: center;
+    }
+}
+
+:root{
+    /*Aquí van los var para poder tener cosas asignables de base*/
+    --color1: orange;
+    --color2: green;
+}

@@ -1,0 +1,292 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\equipos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\equipos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\avisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\avisos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\controllers\\avisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\avisoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\controllers\\tipoaveriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\tipoaveriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\tipoaverias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\tipoaverias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\equipos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\equipos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\localizaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\localizaciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\localizaciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\localizaciones\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\equipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\equipos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\equipos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcsoporte\\mvcsoporte\\views\\equipos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6411E440-D04F-4D5E-9693-12E9D93592B6}|MvcSoporte\\MvcSoporte.csproj|solutionrelative:mvcsoporte\\views\\equipos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 60,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\TipoAverias\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T16:32:02.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Localizaciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Localizaciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Localizaciones\\Index.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Localizaciones\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T16:30:46.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Empleados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Empleados\\Index.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Empleados\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T16:29:38.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Avisos\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Avisos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Avisos\\Index.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Avisos\\Index.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAmwHsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-03T16:27:10.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AvisosController.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Controllers\\AvisosController.cs",
+              "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\AvisosController.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Controllers\\AvisosController.cs",
+              "RelativeToolTip": "MvcSoporte\\Controllers\\AvisosController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAmwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:14:02.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Equipos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Edit.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Equipos\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T17:15:31.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Details.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Equipos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Details.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Equipos\\Details.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAmwIMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T17:11:53.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TipoAveriasController.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Controllers\\TipoAveriasController.cs",
+              "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\TipoAveriasController.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Controllers\\TipoAveriasController.cs",
+              "RelativeToolTip": "MvcSoporte\\Controllers\\TipoAveriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:35:51.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EquiposController.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Controllers\\EquiposController.cs",
+              "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\EquiposController.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Controllers\\EquiposController.cs",
+              "RelativeToolTip": "MvcSoporte\\Controllers\\EquiposController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T17:21:15.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T17:21:18.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Equipos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Create.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Equipos\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T17:15:31.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Equipos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Delete.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Equipos\\Delete.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T17:11:54.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Index.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Equipos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Equipos\\Index.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Equipos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T17:11:52.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Localizaciones\\Create.cshtml",
+              "RelativeDocumentMoniker": "MvcSoporte\\Views\\Localizaciones\\Create.cshtml",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Views\\Localizaciones\\Create.cshtml",
+              "RelativeToolTip": "MvcSoporte\\Views\\Localizaciones\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T17:45:24.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "MvcSoporte\\PaginatedList.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\PaginatedList.cs",
+              "RelativeToolTip": "MvcSoporte\\PaginatedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T15:58:16.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "MvcSoporte\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcSoporte\\MvcSoporte\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "MvcSoporte\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:01:21.812Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

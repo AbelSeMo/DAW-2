@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "MvcAgenda\\Views\\Empleados\\Index.cshtml",
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Views\\Empleados\\Index.cshtml",
               "RelativeToolTip": "MvcAgenda\\Views\\Empleados\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-27T18:51:58.742Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "MvcAgenda\\Controllers\\EmpleadosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:51:51.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:51:51.541Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "MvcAgenda\\Models\\Empleado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:42:49.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:42:49.054Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "MvcAgenda\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:34:38.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:34:38.506Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "MvcAgenda\\Views\\Departamentos\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T18:21:57.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:21:57.07Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "MvcAgenda\\Views\\Tareas\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T18:21:26.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:21:26.72Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "MvcAgenda\\Data\\MvcAgendaContexto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T17:31:17.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T17:31:17.152Z"
             },
             {
               "$type": "Document",
@@ -165,8 +159,7 @@
               "RelativeToolTip": "MvcAgenda\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwCYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T16:20:00.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T16:20:00.731Z"
             }
           ]
         }

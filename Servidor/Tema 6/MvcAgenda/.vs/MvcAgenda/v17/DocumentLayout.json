@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|solutionrelative:mvcagenda\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CA50B5C-05E7-47BC-9FDA-BCBD736A647F}|MvcAgenda\\MvcAgenda.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 6\\mvcagenda\\mvcagenda\\views\\departamentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 60,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Views\\Empleados\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcAgenda\\Views\\Empleados\\Index.cshtml",
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Views\\Empleados\\Index.cshtml",
               "RelativeToolTip": "MvcAgenda\\Views\\Empleados\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-27T18:51:58.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EmpleadosController.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Controllers\\EmpleadosController.cs",
               "RelativeDocumentMoniker": "MvcAgenda\\Controllers\\EmpleadosController.cs",
@@ -75,12 +75,11 @@
               "RelativeToolTip": "MvcAgenda\\Controllers\\EmpleadosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:51:51.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:51:51.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Empleado.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Models\\Empleado.cs",
               "RelativeDocumentMoniker": "MvcAgenda\\Models\\Empleado.cs",
@@ -88,12 +87,11 @@
               "RelativeToolTip": "MvcAgenda\\Models\\Empleado.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:42:49.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:42:49.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Program.cs",
               "RelativeDocumentMoniker": "MvcAgenda\\Program.cs",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "MvcAgenda\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T18:34:38.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:34:38.506Z"
             },
             {
               "$type": "Document",
@@ -114,12 +111,11 @@
               "RelativeToolTip": "MvcAgenda\\Views\\Departamentos\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T18:21:57.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:21:57.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Views\\Tareas\\Index.cshtml",
               "RelativeDocumentMoniker": "MvcAgenda\\Views\\Tareas\\Index.cshtml",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "MvcAgenda\\Views\\Tareas\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-27T18:21:26.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T18:21:26.72Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "MvcAgenda\\Data\\MvcAgendaContexto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T17:31:17.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T17:31:17.152Z"
             },
             {
               "$type": "Document",
@@ -157,13 +151,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MvcAgenda\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MvcAgenda\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCYAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 6\\MvcAgenda\\MvcAgenda\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "MvcAgenda\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCAAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-18T16:20:00.731Z",
               "EditorCaption": ""
