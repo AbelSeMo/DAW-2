@@ -1,3 +1,6 @@
+/*@import url(); 
+    Sirve para importar otros css
+*/
 html {box-sizing: border-box; }
 
 *, *:before, *:after {box-sizing: inherit; }
