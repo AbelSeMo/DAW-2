@@ -1,0 +1,56 @@
+/*@import url(); 
+    Sirve para importar otros css
+*/
+
+@import url(grid.css);
+@import url(nav.css);
+@import url(footer.css);
+
+html {box-sizing: border-box; 
+}
+
+*, *:before, *:after {box-sizing: inherit; }
+
+.header{
+    background-color: #222A2D;
+    /* background-image: url(./Oficina.jpg);
+    background-position: center;
+    background-size: cover; */
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    text-align: end;
+    width: 80%;
+    font-weight: bold;
+    a{
+        margin-right: 10px;
+    }
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+img{
+    object-fit: contain;
+    height: 10vh;
+}
+button{
+    color:white;
+    background-color: transparent;
+    border: none;
+    height: 100px;
+}
+.centro{
+    background-image: url(./Oficina.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+:root{
+    /*Aquí van los var para poder tener cosas asignables de base*/
+    --color1: orange;
+    --color2: green;
+}

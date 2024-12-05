@@ -1,0 +1,14 @@
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    span{
+        display: flex;
+        align-self: center;
+    }
+    img{
+        display: flex;
+    }
+
+}

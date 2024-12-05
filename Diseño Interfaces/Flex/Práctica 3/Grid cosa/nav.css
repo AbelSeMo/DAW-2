@@ -1,0 +1,34 @@
+.navegador{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    .lista{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 40%;
+    }
+    li{
+        color:white;
+        height: 100px;
+        align-content: center;
+    }
+    .solu{
+        height: 100px;
+        background-color: transparent;
+        border: none;
+        color:white;
+    }
+    .btnEmpezar{
+        background-color: var(--color2);
+        border-style: solid;
+        height: 50px;
+        border-color: var(--color1);
+        border-width: 2px;
+    }
+    .btnIniciar{
+        margin-left: 10px;
+        border-style: solid;
+        height: 50px;
+        border-width: 2px;
+    }
+}

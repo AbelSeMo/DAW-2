@@ -14,7 +14,7 @@
 }
 .texto1{
     grid-area: texto1;
-    background-color: green;
+    background-color: #423633;
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -26,20 +26,20 @@
 
 .texto2{
     grid-area: texto2;
-    background-color: black;
+    background-color: #423633;
     margin: 5px;
     
 }
 
 .texto3{
     grid-area: texto3;
-    background-color: aquamarine;
+    background-color: #423633;
     margin: 5px 5px 5px 0px;
 }
 
 .texto4{
     grid-area: texto4;
-    background-color: red;
+    background-color: #423633;
     margin: 5px 5px 5px 0px;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@
 .imgPromo2{
     grid-area: imgPromo2;
     background-color: red;
-    background-image: url(./Kebab.jpg);
+    background-image: url(./DonerKebab.jpg);
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -70,7 +70,7 @@
 .imgPromo3{
     grid-area: imgPromo3;
     background-color: red;
-    background-image: url(./Kebab.jpg);
+    background-image: url(./ExtrañoKebab.jpg);
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -79,7 +79,7 @@
 .imgPromo4{
     grid-area: imgPromo4;
     background-color: red;
-    background-image: url(./Kebab.jpg);
+    background-image: url(./KebabPatata.jpg);
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -89,7 +89,7 @@
     grid-area: imgPromo5;
     background-color: red;
     margin: 5px 0px 5px 5px;
-    background-image: url(./Kebab.jpg);
+    background-image: url(./pinchokebab.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -97,7 +97,7 @@
 .imgPromo6{
     grid-area: imgPromo6;
     background-color: red;
-    background-image: url(./Kebab.jpg);
+    background-image: url(./Pita-Kebab-LHospitalet-893968759.jpg);
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -106,14 +106,16 @@
 
 .imgPromo7{
     grid-area: imgPromo7;
-    background-color: blue;
+    background-image: url(./pizzakebab.jpg);
+    background-size: cover;
+    background-position: center;
     margin: 5px 0px 5px 5px;
 }
 
 .imgPromo8{
     grid-area: imgPromo8;
     background-color: red;
-    background-image: url(./Kebab.jpg);
+    background-image: url(./SeekhKebab.jpg);
     background-size: cover;
     background-position: center;
     margin: 5px;
@@ -122,7 +124,7 @@
 .imgPromo9{
     grid-area: imgPromo9;
     background-color: red;
-    background-image: url(./Kebab.jpg);
+    background-image: url(./TurkishKebab.jpg);
     background-size: cover;
     background-position: center;
     margin: 5px;
