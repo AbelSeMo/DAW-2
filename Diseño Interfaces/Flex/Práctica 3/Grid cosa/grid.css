@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: var(--color3);
     p{
         text-align: center;
     }
@@ -28,13 +29,14 @@
     grid-area: texto2;
     background-color: #423633;
     margin: 5px;
-    
+    color: var(--color3);
 }
 
 .texto3{
     grid-area: texto3;
     background-color: #423633;
     margin: 5px 5px 5px 0px;
+    color: var(--color3);
 }
 
 .texto4{
@@ -44,8 +46,15 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    color: var(--color3);
     p{
         text-align: center;
+    }
+    button{
+        border-style: solid;
+        width: 30%;
+        align-self: center;
+        height: 20%;
     }
 }
 

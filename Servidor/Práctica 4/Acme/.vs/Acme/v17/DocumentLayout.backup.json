@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\mpprestaciones.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\pr\u00E1ctica 4\\acme\\gespresta\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\gespresta\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{47530214-7D15-4D42-8A9D-B863D471EF87}|GesPresta\\GesPresta.csproj|solutionrelative:gespresta\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "GesPresta\\Estilos.css",
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\Estilos.css",
               "RelativeToolTip": "GesPresta\\Estilos.css",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-05T16:27:49.983Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "GesPresta\\MPPrestaciones.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-15T15:06:58.187Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T15:06:58.187Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\MPEmpleados.aspx",
               "RelativeToolTip": "GesPresta\\MPEmpleados.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-15T15:06:53.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T15:06:53.714Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "GesPresta\\MasterPage.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-15T15:06:42.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T15:06:42.094Z"
             },
             {
               "$type": "Document",
@@ -104,8 +101,7 @@
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\MPDefault.aspx",
               "RelativeToolTip": "GesPresta\\MPDefault.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-15T15:06:24.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T15:06:24.419Z"
             },
             {
               "$type": "Document",
@@ -116,8 +112,7 @@
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\Prestaciones.aspx",
               "RelativeToolTip": "GesPresta\\Prestaciones.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-15T15:02:27.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T15:02:27.588Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\Empleados.aspx",
               "RelativeToolTip": "GesPresta\\Empleados.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-14T16:11:36.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T16:11:36.036Z"
             },
             {
               "$type": "Document",
@@ -140,8 +134,7 @@
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Pr\u00E1ctica 4\\Acme\\GesPresta\\Prestaciones2.aspx",
               "RelativeToolTip": "GesPresta\\Prestaciones2.aspx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-07T16:24:29.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T16:24:29.485Z"
             }
           ]
         },

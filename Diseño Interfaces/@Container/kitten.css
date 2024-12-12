@@ -1,0 +1,40 @@
+body > *{
+    background-color: orange;
+    margin: 5px;
+    text-align: center;
+}
+#contenedor{
+    display: grid;
+    grid-template-areas: 
+    "nav1 nav1 nav1 section"
+    "nav2 cuerpo1 cuerpo1 section"
+    "nav2 cuerpo1 cuerpo1 section"
+    "nav2 cuerpo1 cuerpo1 section";
+    background-color: white;
+}
+#nav1{
+    border-bottom-style:solid;
+    border-color: #CA6624;
+    grid-area: nav1;
+    background-color: orange;
+}
+#nav2{
+    border-right-style:solid;
+    border-color: #CA6624;
+    text-align: center;
+    grid-area: nav2;
+    background-color: orange;
+}
+section{
+    margin-left: 5px;
+    grid-area: section;
+    background-color: orange;
+}
+#cuerpo1{
+    text-align: center;
+    grid-area: cuerpo1;
+    background-color: orange;
+}
+p{
+    margin: 0px;
+}

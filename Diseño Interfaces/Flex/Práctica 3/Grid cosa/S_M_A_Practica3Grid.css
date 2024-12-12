@@ -16,7 +16,7 @@ html {box-sizing: border-box;
     /* background-image: url(./Oficina.jpg);
     background-position: center;
     background-size: cover; */
-    color:white;
+    color:var(--color3);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -38,7 +38,7 @@ img{
     height: 10vh;
 }
 button{
-    color:white;
+    color:var(--color3);
     background-color: transparent;
     border: none;
     height: 100px;
@@ -53,4 +53,5 @@ button{
     /*Aquí van los var para poder tener cosas asignables de base*/
     --color1: orange;
     --color2: green;
+    --color3: white;
 }
