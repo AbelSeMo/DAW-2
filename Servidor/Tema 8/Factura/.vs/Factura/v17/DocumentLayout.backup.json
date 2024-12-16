@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{54B84DA7-9C97-4364-88A6-2CAD2694F30B}|FacturaWS\\FacturaWS.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\factura\\facturaws\\calculosfacturaws.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{54B84DA7-9C97-4364-88A6-2CAD2694F30B}|FacturaWS\\FacturaWS.csproj|solutionrelative:facturaws\\calculosfacturaws.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{54B84DA7-9C97-4364-88A6-2CAD2694F30B}|FacturaWS\\FacturaWS.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\factura\\facturaws\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{54B84DA7-9C97-4364-88A6-2CAD2694F30B}|FacturaWS\\FacturaWS.csproj|solutionrelative:facturaws\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{4111FF74-127A-4816-A462-70267CDAE76D}|GesFactura\\GesFactura.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\factura\\gesfactura\\lineasfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{4111FF74-127A-4816-A462-70267CDAE76D}|GesFactura\\GesFactura.csproj|solutionrelative:gesfactura\\lineasfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 60,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\FacturaWS\\Web.config",
-              "RelativeDocumentMoniker": "FacturaWS\\Web.config",
-              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\FacturaWS\\Web.config",
-              "RelativeToolTip": "FacturaWS\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-12-12T15:44:29.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CalculosFacturaWS.asmx.cs",
-              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\FacturaWS\\CalculosFacturaWS.asmx.cs",
-              "RelativeDocumentMoniker": "FacturaWS\\CalculosFacturaWS.asmx.cs",
-              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\FacturaWS\\CalculosFacturaWS.asmx.cs",
-              "RelativeToolTip": "FacturaWS\\CalculosFacturaWS.asmx.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T15:22:17.977Z",
+              "Title": "LineasFactura.aspx",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\GesFactura\\LineasFactura.aspx",
+              "RelativeDocumentMoniker": "GesFactura\\LineasFactura.aspx",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\GesFactura\\LineasFactura.aspx",
+              "RelativeToolTip": "GesFactura\\LineasFactura.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-16T17:24:00.591Z",
               "EditorCaption": ""
             }
           ]
