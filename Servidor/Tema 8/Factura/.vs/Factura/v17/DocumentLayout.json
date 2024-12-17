@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4111FF74-127A-4816-A462-70267CDAE76D}|GesFactura\\GesFactura.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\factura\\gesfactura\\lineasfactura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4111FF74-127A-4816-A462-70267CDAE76D}|GesFactura\\GesFactura.csproj|solutionrelative:gesfactura\\lineasfactura.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4111FF74-127A-4816-A462-70267CDAE76D}|GesFactura\\GesFactura.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\factura\\gesfactura\\lineasfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{4111FF74-127A-4816-A462-70267CDAE76D}|GesFactura\\GesFactura.csproj|solutionrelative:gesfactura\\lineasfactura.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LineasFactura.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\GesFactura\\LineasFactura.aspx.cs",
+              "RelativeDocumentMoniker": "GesFactura\\LineasFactura.aspx.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\GesFactura\\LineasFactura.aspx.cs",
+              "RelativeToolTip": "GesFactura\\LineasFactura.aspx.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T17:14:48.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "LineasFactura.aspx",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\Factura\\GesFactura\\LineasFactura.aspx",
               "RelativeDocumentMoniker": "GesFactura\\LineasFactura.aspx",

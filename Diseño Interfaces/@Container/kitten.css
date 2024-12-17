@@ -1,40 +1,79 @@
-body > *{
+body > * {
     background-color: orange;
-    margin: 5px;
+    margin: 5px auto; 
     text-align: center;
+    width: 80%;
 }
-#contenedor{
+
+#contenedor {
     display: grid;
+    container-type: inline-size; 
     grid-template-areas: 
-    "nav1 nav1 nav1 section"
-    "nav2 cuerpo1 cuerpo1 section"
-    "nav2 cuerpo1 cuerpo1 section"
-    "nav2 cuerpo1 cuerpo1 section";
+        "nav1 nav1 nav1 section"
+        "nav2 cuerpo1 cuerpo1 section"
+        "nav2 cuerpo1 cuerpo1 section"
+        "nav2 cuerpo1 cuerpo1 section";
     background-color: white;
 }
-#nav1{
-    border-bottom-style:solid;
-    border-color: #CA6624;
+
+#nav1 {
+    border-bottom: solid 5px #CA6624;
     grid-area: nav1;
     background-color: orange;
 }
-#nav2{
-    border-right-style:solid;
-    border-color: #CA6624;
+
+#nav2 {
+    border-right: solid 5px #CA6624;
     text-align: center;
     grid-area: nav2;
     background-color: orange;
 }
-section{
+
+section {
     margin-left: 5px;
     grid-area: section;
     background-color: orange;
 }
-#cuerpo1{
+
+#cuerpo1 {
     text-align: center;
     grid-area: cuerpo1;
     background-color: orange;
 }
-p{
-    margin: 0px;
+
+p {
+    margin: 0;
+}
+
+
+@media (max-width:768px) {
+    body > * {
+        width: 100%; 
+    }
+
+    #contenedor {
+        grid-template-areas: 
+            "nav1 nav1 section"
+            "nav2 cuerpo1 section"
+            "nav2 cuerpo1 section"
+            "nav2 cuerpo1 section";
+    }
+}
+
+
+@media (max-width:480px) {
+    body > * {
+        width: 100%; 
+    }
+
+    #contenedor {
+        grid-template-areas: 
+            "nav1 nav1"
+            "nav2 nav2"
+            "cuerpo1 cuerpo1"
+            "section section";
+    }
+    #nav2 {
+        border-right: none;
+    }
 }
