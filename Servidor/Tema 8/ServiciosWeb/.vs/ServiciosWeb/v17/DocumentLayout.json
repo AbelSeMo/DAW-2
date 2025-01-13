@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ServiciosWeb\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DCDB950F-EE5D-4A32-8A13-C77F4C928A4E}|ServiciosWebCS\\ServiciosWebCS.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ServiciosWeb\\servicioswebcs\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCDB950F-EE5D-4A32-8A13-C77F4C928A4E}|ServiciosWebCS\\ServiciosWebCS.csproj|solutionrelative:servicioswebcs\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DCDB950F-EE5D-4A32-8A13-C77F4C928A4E}|ServiciosWebCS\\ServiciosWebCS.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\serviciosweb\\servicioswebcs\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DCDB950F-EE5D-4A32-8A13-C77F4C928A4E}|ServiciosWebCS\\ServiciosWebCS.csproj|solutionrelative:servicioswebcs\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -11,12 +15,8 @@
       "RelativeMoniker": "D:0:0:{DCDB950F-EE5D-4A32-8A13-C77F4C928A4E}|ServiciosWebCS\\ServiciosWebCS.csproj|solutionrelative:servicioswebcs\\css\\consumirweb.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DCDB950F-EE5D-4A32-8A13-C77F4C928A4E}|ServiciosWebCS\\ServiciosWebCS.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\serviciosweb\\servicioswebcs\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{DCDB950F-EE5D-4A32-8A13-C77F4C928A4E}|ServiciosWebCS\\ServiciosWebCS.csproj|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ServiciosWeb\\servicioswebcs\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{DCDB950F-EE5D-4A32-8A13-C77F4C928A4E}|ServiciosWebCS\\ServiciosWebCS.csproj|solutionrelative:servicioswebcs\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DCDB950F-EE5D-4A32-8A13-C77F4C928A4E}|ServiciosWebCS\\ServiciosWebCS.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\serviciosweb\\servicioswebcs\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DCDB950F-EE5D-4A32-8A13-C77F4C928A4E}|ServiciosWebCS\\ServiciosWebCS.csproj|solutionrelative:servicioswebcs\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 60,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Ejercicio1.aspx.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ServiciosWeb\\ServiciosWebCS\\Ejercicio1.aspx.cs",
               "RelativeDocumentMoniker": "ServiciosWebCS\\Ejercicio1.aspx.cs",
@@ -51,7 +51,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ServiciosWeb\\ServiciosWebCS\\Web.config",
               "RelativeDocumentMoniker": "ServiciosWebCS\\Web.config",
@@ -64,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "consumirWeb.css",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ServiciosWeb\\ServiciosWebCS\\css\\consumirWeb.css",
               "RelativeDocumentMoniker": "ServiciosWebCS\\css\\consumirWeb.css",
@@ -72,18 +72,17 @@
               "RelativeToolTip": "ServiciosWebCS\\css\\consumirWeb.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-10T16:34:08.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T16:34:08.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Ejercicio1.aspx",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ServiciosWeb\\ServiciosWebCS\\Ejercicio1.aspx",
               "RelativeDocumentMoniker": "ServiciosWebCS\\Ejercicio1.aspx",
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ServiciosWeb\\ServiciosWebCS\\Ejercicio1.aspx",
               "RelativeToolTip": "ServiciosWebCS\\Ejercicio1.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-12-10T16:21:21.402Z",
               "EditorCaption": ""

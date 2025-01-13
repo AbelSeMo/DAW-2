@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ApiContactos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3A9B9CB0-5402-410C-B18B-DB58E9685064}|ApiContactos\\ApiContactos.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\apicontactos\\apicontactos\\controllers\\contactoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A9B9CB0-5402-410C-B18B-DB58E9685064}|ApiContactos\\ApiContactos.csproj|solutionrelative:apicontactos\\controllers\\contactoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9B9CB0-5402-410C-B18B-DB58E9685064}|ApiContactos\\ApiContactos.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\apicontactos\\apicontactos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A9B9CB0-5402-410C-B18B-DB58E9685064}|ApiContactos\\ApiContactos.csproj|solutionrelative:apicontactos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A9B9CB0-5402-410C-B18B-DB58E9685064}|ApiContactos\\ApiContactos.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\apicontactos\\apicontactos\\models\\apicontactoscontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A9B9CB0-5402-410C-B18B-DB58E9685064}|ApiContactos\\ApiContactos.csproj|solutionrelative:apicontactos\\models\\apicontactoscontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A9B9CB0-5402-410C-B18B-DB58E9685064}|ApiContactos\\ApiContactos.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\tema 8\\apicontactos\\apicontactos\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A9B9CB0-5402-410C-B18B-DB58E9685064}|ApiContactos\\ApiContactos.csproj|solutionrelative:apicontactos\\models\\contacto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -27,6 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ContactosController.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ApiContactos\\ApiContactos\\Controllers\\ContactosController.cs",
+              "RelativeDocumentMoniker": "ApiContactos\\Controllers\\ContactosController.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ApiContactos\\ApiContactos\\Controllers\\ContactosController.cs",
+              "RelativeToolTip": "ApiContactos\\Controllers\\ContactosController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwFYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T14:50:11.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ApiContactos\\ApiContactos\\Program.cs",
+              "RelativeDocumentMoniker": "ApiContactos\\Program.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ApiContactos\\ApiContactos\\Program.cs",
+              "RelativeToolTip": "ApiContactos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T14:26:02.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApiContactosContexto.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ApiContactos\\ApiContactos\\Models\\ApiContactosContexto.cs",
+              "RelativeDocumentMoniker": "ApiContactos\\Models\\ApiContactosContexto.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ApiContactos\\ApiContactos\\Models\\ApiContactosContexto.cs",
+              "RelativeToolTip": "ApiContactos\\Models\\ApiContactosContexto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T14:22:10.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Contacto.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Tema 8\\ApiContactos\\ApiContactos\\Models\\Contacto.cs",
               "RelativeDocumentMoniker": "ApiContactos\\Models\\Contacto.cs",
