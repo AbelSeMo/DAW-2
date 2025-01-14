@@ -1,0 +1,120 @@
+@import url(root.css);
+body {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f5f1f1;
+    
+}
+
+body > * {
+    margin: 0.5em;
+}
+
+
+header {
+    height: 8vh;
+    background: var(--header);
+}
+
+#menu {
+    height: 8vh;
+    background: var(--menu);
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 50vh;
+}
+#contenedor {
+    flex-grow: 5;
+    background: var(--contenedor);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    /*Aquí se asigna el contenedor con un nombre para poder identificarlo mejor*/
+    container-type: inline-size;
+    container-name: cuerpo;
+}
+
+#nav1 {
+    grid-column: 1 / span 4;
+    border-bottom: 4px solid var(--borde1);
+    background: var(--nav1);
+}
+
+#nav2 {
+    grid-row: 2 / span 3;
+    background: var(--nav2);
+    border-right: 4px solid var(--borde2);
+}
+
+#cuerpo1 {
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 3;
+    background: url("kitten-pc.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+aside {
+    flex-grow: 3;
+    background: var(--aside);
+}
+
+footer {
+    background: var(--footer);
+    height: 6vh;
+}
+
+@container cuerpo (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    aside {
+        flex-grow: 0;
+        display: none;
+    }
+
+    #cuerpo1 {
+        background: url("kitten-movil.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-row: 3 / 5;
+        grid-column: 1 / 5;
+    }
+
+    #nav1 {
+        grid-row: 1 / 1;
+    }
+
+    #nav2 {
+        grid-row: 2 / 2;
+        grid-column: 1 / 5;
+        border-bottom: 4px solid var(--borde2);
+        border-right: 0px;
+    }
+}
+
+@container cuerpo (min-width: 600px) and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    aside {
+        flex-grow: 0;
+        display: none;
+    }
+
+    #cuerpo1 {
+        background: url("kitten-tablet.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

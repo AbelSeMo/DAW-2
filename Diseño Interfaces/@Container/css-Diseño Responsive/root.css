@@ -1,0 +1,11 @@
+:root {
+    --header: linear-gradient(185deg, #18c418, #0d23a0);
+    --menu: linear-gradient(160deg, #2670bb, #4d4680);
+    --contenedor: linear-gradient(140deg, #ebca0e, #db810b);
+    --aside: linear-gradient( #be114b, #bb258e);
+    --footer: linear-gradient(360deg, #36d3c3, #82c024);
+    --nav1: linear-gradient(155deg, #FF4500, #8B0000);
+    --nav2: linear-gradient(185deg, #B0C4DE, #000000);
+    --borde1: #FF4500;
+    --borde2: #B0C4DE;
+}
