@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\models\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\models\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\models\\imagen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\models\\estado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\models\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\models\\detalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\data\\decostationcontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\data\\decostationcontexto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Migrations\\20250122184211_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DecoStation\\Migrations\\20250122184211_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|solutionrelative:decostation\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6E885874-8E56-43CF-BA9B-EED164BBC884}|DecoStation\\DecoStation.csproj|c:\\users\\abesermon\\documents\\github\\daw-2\\servidor\\integrador\\decostation\\decostation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -55,25 +83,129 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "DecoStation\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "DecoStation\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T19:05:47.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DecoStation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "DecoStation\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:47:55.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250122184211_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Migrations\\20250122184211_Inicial.cs",
+              "RelativeDocumentMoniker": "DecoStation\\Migrations\\20250122184211_Inicial.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Migrations\\20250122184211_Inicial.cs",
+              "RelativeToolTip": "DecoStation\\Migrations\\20250122184211_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:42:11.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\appsettings.json",
+              "RelativeDocumentMoniker": "DecoStation\\appsettings.json",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\appsettings.json",
+              "RelativeToolTip": "DecoStation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-22T18:31:52.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Program.cs",
+              "RelativeDocumentMoniker": "DecoStation\\Program.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Program.cs",
+              "RelativeToolTip": "DecoStation\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:30:41.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DecoStationContexto.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Data\\DecoStationContexto.cs",
+              "RelativeDocumentMoniker": "DecoStation\\Data\\DecoStationContexto.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Data\\DecoStationContexto.cs",
+              "RelativeToolTip": "DecoStation\\Data\\DecoStationContexto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wCUAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:19:39.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Imagen.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Imagen.cs",
+              "RelativeDocumentMoniker": "DecoStation\\Models\\Imagen.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Imagen.cs",
+              "RelativeToolTip": "DecoStation\\Models\\Imagen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:06:48.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "DecoStation\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Categoria.cs",
+              "RelativeToolTip": "DecoStation\\Models\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:03:41.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "DecoStation\\Models\\Producto.cs",
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Producto.cs",
               "RelativeToolTip": "DecoStation\\Models\\Producto.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T17:45:02.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Estado.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Estado.cs",
               "RelativeDocumentMoniker": "DecoStation\\Models\\Estado.cs",
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Estado.cs",
               "RelativeToolTip": "DecoStation\\Models\\Estado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T17:15:48.816Z",
               "EditorCaption": ""
@@ -86,7 +218,7 @@
               "RelativeDocumentMoniker": "DecoStation\\Models\\Pedido.cs",
               "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Pedido.cs",
               "RelativeToolTip": "DecoStation\\Models\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T16:40:36.772Z",
               "EditorCaption": ""
@@ -94,32 +226,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Empleado.cs",
-              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Empleado.cs",
-              "RelativeDocumentMoniker": "DecoStation\\Models\\Empleado.cs",
-              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Empleado.cs",
-              "RelativeToolTip": "DecoStation\\Models\\Empleado.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAowB0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-21T16:31:10.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "DecoStation\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Cliente.cs",
-              "RelativeToolTip": "DecoStation\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "DecoStation\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Usuario.cs",
+              "RelativeToolTip": "DecoStation\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABcAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-21T16:00:55.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Detalle.cs",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Models\\Detalle.cs",
               "RelativeDocumentMoniker": "DecoStation\\Models\\Detalle.cs",
@@ -132,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "DecoStation\\Views\\Shared\\_LoginPartial.cshtml",
@@ -140,12 +259,11 @@
               "RelativeToolTip": "DecoStation\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-20T17:44:00.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T17:44:00.092Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DecoStation\\Views\\Shared\\_Layout.cshtml",
@@ -153,8 +271,7 @@
               "RelativeToolTip": "DecoStation\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-13T15:44:06.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T15:44:06.907Z"
             }
           ]
         }

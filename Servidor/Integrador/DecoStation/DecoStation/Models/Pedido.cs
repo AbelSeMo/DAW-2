@@ -13,8 +13,8 @@ namespace DecoStation.Models
         [Required(ErrorMessage = "El condición del pedido es un campo requerido.")]
         public int ConditionId { get; set; }
 
-        public int ClientId { get; set; }
-        public Cliente? Client { get; set; }
+        public int UserId { get; set; }
+        public Usuario? User { get; set; }
         public Estado? Condition { get; set; }
     }
 }
