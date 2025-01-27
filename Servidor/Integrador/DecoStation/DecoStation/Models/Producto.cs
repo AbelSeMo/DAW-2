@@ -28,9 +28,9 @@ namespace DecoStation.Models
 
         [Display(Name = "Categoría")]
         public int CategoryId { get; set; }
-
+        [Display(Name = "Imagen del Producto")]
         public Imagen? Image { get; set; }
-
+        [Display(Name = "Categoría")]
         public Categoria? Category { get; set; }
     }
 }

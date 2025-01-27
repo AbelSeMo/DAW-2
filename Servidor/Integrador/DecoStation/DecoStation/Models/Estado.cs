@@ -8,5 +8,7 @@ namespace DecoStation.Models
         [Display(Name = "Descripción")]
         [Required(ErrorMessage = "La descripción del estado del producto es un campo requerido.")]
         public string? Description { get; set; }
+
+        public ICollection<Pedido>? Pedidos { get; set; }
     }
 }

@@ -52,16 +52,25 @@ namespace DecoStation.Migrations
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ProductoId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<decimal?>("Summary")
                         .IsRequired()
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
                     b.HasIndex("OrderId");
+
+                    b.HasIndex("ProductoId");
 
                     b.ToTable("Detalle", (string)null);
                 });
@@ -107,11 +116,30 @@ namespace DecoStation.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime?>("Cancelled")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("ConditionId")
                         .HasColumnType("int");
 
+                    b.Property<DateTime?>("Confirmed")
+                        .IsRequired()
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("Delivered")
+                        .HasColumnType("datetime2");
+
                     b.Property<DateTime?>("DeliveryTime")
                         .IsRequired()
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("Paid")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("Prepared")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("Returned")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("UserId")
@@ -140,9 +168,6 @@ namespace DecoStation.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("DetalleId")
-                        .HasColumnType("int");
-
                     b.Property<int>("ImageId")
                         .HasColumnType("int");
 
@@ -152,6 +177,7 @@ namespace DecoStation.Migrations
 
                     b.Property<decimal?>("Price")
                         .IsRequired()
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int?>("Stock")
@@ -161,8 +187,6 @@ namespace DecoStation.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
-
-                    b.HasIndex("DetalleId");
 
                     b.HasIndex("ImageId");
 
@@ -180,6 +204,10 @@ namespace DecoStation.Migrations
                     b.Property<DateTime?>("BirthDate")
                         .IsRequired()
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("CodigoPostal")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Direction")
                         .IsRequired()
@@ -205,18 +233,25 @@ namespace DecoStation.Migrations
             modelBuilder.Entity("DecoStation.Models.Detalle", b =>
                 {
                     b.HasOne("DecoStation.Models.Pedido", "Order")
-                        .WithMany()
+                        .WithMany("Detalles")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
+                    b.HasOne("DecoStation.Models.Producto", "Producto")
+                        .WithMany()
+                        .HasForeignKey("ProductoId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
                     b.Navigation("Order");
+
+                    b.Navigation("Producto");
                 });
 
             modelBuilder.Entity("DecoStation.Models.Pedido", b =>
                 {
                     b.HasOne("DecoStation.Models.Estado", "Condition")
-                        .WithMany()
+                        .WithMany("Pedidos")
                         .HasForeignKey("ConditionId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
@@ -235,15 +270,10 @@ namespace DecoStation.Migrations
             modelBuilder.Entity("DecoStation.Models.Producto", b =>
                 {
                     b.HasOne("DecoStation.Models.Categoria", "Category")
-                        .WithMany()
+                        .WithMany("Products")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.HasOne("DecoStation.Models.Detalle", null)
-                        .WithMany("Products")
-                        .HasForeignKey("DetalleId")
-                        .OnDelete(DeleteBehavior.Restrict);
 
                     b.HasOne("DecoStation.Models.Imagen", "Image")
                         .WithMany()
@@ -256,9 +286,19 @@ namespace DecoStation.Migrations
                     b.Navigation("Image");
                 });
 
-            modelBuilder.Entity("DecoStation.Models.Detalle", b =>
+            modelBuilder.Entity("DecoStation.Models.Categoria", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("DecoStation.Models.Estado", b =>
+                {
+                    b.Navigation("Pedidos");
+                });
+
+            modelBuilder.Entity("DecoStation.Models.Pedido", b =>
+                {
+                    b.Navigation("Detalles");
                 });
 
             modelBuilder.Entity("DecoStation.Models.Usuario", b =>

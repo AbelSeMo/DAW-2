@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DecoStation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ff9f18192be3e2efadb68a8eeba1976e8b42fb9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d286990d4843c75fb69348140c201c699ccc748c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DecoStation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DecoStation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
