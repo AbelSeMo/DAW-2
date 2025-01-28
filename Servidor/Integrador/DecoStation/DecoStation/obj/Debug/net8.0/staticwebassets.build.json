@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QJfh9Q/xmgwI5Ve0UeL+8X1dEKNPetDaM4vjIA2nIhk=",
+  "Hash": "p3NENFppKf01E0P9S8ovkL2IZzedYRuTk+5TqUhR1Os=",
   "Source": "DecoStation",
   "BasePath": "_content/DecoStation",
   "Mode": "Default",
@@ -1359,6 +1359,237 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\accesorios-para-vino-y-bar_241001102251_40763089.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/accesorios-para-vino-y-bar_241001102251_40763089#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dkv65bd6uq",
+      "Integrity": "s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\accesorios-para-vino-y-bar_241001102251_40763089.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_241230061004_43359351.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/aparador_241230061004_43359351#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4gw35i07hh",
+      "Integrity": "BDR7Mx4ah44ggmM5ZPr9oAHzRjQ/R2cjwREpCV02R/4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\aparador_241230061004_43359351.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_32691859.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/aparador_32691859#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9oc7z9ln1r",
+      "Integrity": "F+04HATQapPmwty7k5D6bi8PXtexzzx/GJpPBe0MiGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\aparador_32691859.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\conjunto-de-mesa-y-sillas_8122587.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/conjunto-de-mesa-y-sillas_8122587#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "194ieurrww",
+      "Integrity": "+6PVC9CNuXWCMIXdLbCaltpFcjEOrEAIVUo+OC26+Og=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\conjunto-de-mesa-y-sillas_8122587.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\estante_28861333.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/estante_28861333#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vf5xlox24x",
+      "Integrity": "NUGpn2LPqgm3ufJjpqinvowvIeJzg6EzI4ScwIth+zE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\estante_28861333.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\libreria_28864569.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/libreria_28864569#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f926s1fufz",
+      "Integrity": "8wAVe1e/4cVfWN51KlkUYEuX1Eo8PdU05TI3Wn3l3Ls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\libreria_28864569.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_25756891.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/mesa-de-centro_25756891#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iyurhbpcnv",
+      "Integrity": "eiIjVsDyEgYDOsZgAgdOxG06XY1n21KecnDJTAt+yxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\mesa-de-centro_25756891.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_302593.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/mesa-de-centro_302593#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vptgyiix9n",
+      "Integrity": "c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\mesa-de-centro_302593.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-comedor_241028061007_41512575.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/mesa-de-comedor_241028061007_41512575#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uy5bw2pc5s",
+      "Integrity": "9uqp/OKLi/R57Cfs9llNaeCuASPN3MhJBGAJrg2mSxw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\mesa-de-comedor_241028061007_41512575.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\silla_241022032509_41429559.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/silla_241022032509_41429559#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7hzshdnfgq",
+      "Integrity": "ZSi1Pu69PdjTGCadMaFqGbD+dmA26H09TOEY/XtDRLM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\silla_241022032509_41429559.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\sofa_20959237.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/sofa_20959237#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "panzghodsl",
+      "Integrity": "sRQ7CxEiR5dnqGUHKgA3aB86pLljHgcttT+eflrL7JE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\sofa_20959237.jpg"
     },
     {
       "Identity": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\js\\site.js",
@@ -5125,6 +5356,908 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "Images/accesorios-para-vino-y-bar_241001102251_40763089.dkv65bd6uq.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\accesorios-para-vino-y-bar_241001102251_40763089.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:03:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dkv65bd6uq"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/accesorios-para-vino-y-bar_241001102251_40763089.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/accesorios-para-vino-y-bar_241001102251_40763089.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\accesorios-para-vino-y-bar_241001102251_40763089.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:03:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/aparador_241230061004_43359351.4gw35i07hh.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_241230061004_43359351.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "855367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BDR7Mx4ah44ggmM5ZPr9oAHzRjQ/R2cjwREpCV02R/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 18:59:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4gw35i07hh"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/aparador_241230061004_43359351.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BDR7Mx4ah44ggmM5ZPr9oAHzRjQ/R2cjwREpCV02R/4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/aparador_241230061004_43359351.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_241230061004_43359351.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "855367"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BDR7Mx4ah44ggmM5ZPr9oAHzRjQ/R2cjwREpCV02R/4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 18:59:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BDR7Mx4ah44ggmM5ZPr9oAHzRjQ/R2cjwREpCV02R/4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/aparador_32691859.9oc7z9ln1r.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_32691859.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F+04HATQapPmwty7k5D6bi8PXtexzzx/GJpPBe0MiGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 18:59:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9oc7z9ln1r"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/aparador_32691859.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F+04HATQapPmwty7k5D6bi8PXtexzzx/GJpPBe0MiGY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/aparador_32691859.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_32691859.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "376587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F+04HATQapPmwty7k5D6bi8PXtexzzx/GJpPBe0MiGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 18:59:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F+04HATQapPmwty7k5D6bi8PXtexzzx/GJpPBe0MiGY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/conjunto-de-mesa-y-sillas_8122587.194ieurrww.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\conjunto-de-mesa-y-sillas_8122587.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "381472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+6PVC9CNuXWCMIXdLbCaltpFcjEOrEAIVUo+OC26+Og=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:02:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "194ieurrww"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/conjunto-de-mesa-y-sillas_8122587.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+6PVC9CNuXWCMIXdLbCaltpFcjEOrEAIVUo+OC26+Og="
+        }
+      ]
+    },
+    {
+      "Route": "Images/conjunto-de-mesa-y-sillas_8122587.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\conjunto-de-mesa-y-sillas_8122587.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "381472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+6PVC9CNuXWCMIXdLbCaltpFcjEOrEAIVUo+OC26+Og=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:02:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+6PVC9CNuXWCMIXdLbCaltpFcjEOrEAIVUo+OC26+Og="
+        }
+      ]
+    },
+    {
+      "Route": "Images/estante_28861333.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\estante_28861333.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1284420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NUGpn2LPqgm3ufJjpqinvowvIeJzg6EzI4ScwIth+zE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:01:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NUGpn2LPqgm3ufJjpqinvowvIeJzg6EzI4ScwIth+zE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/estante_28861333.vf5xlox24x.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\estante_28861333.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1284420"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NUGpn2LPqgm3ufJjpqinvowvIeJzg6EzI4ScwIth+zE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:01:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vf5xlox24x"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/estante_28861333.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NUGpn2LPqgm3ufJjpqinvowvIeJzg6EzI4ScwIth+zE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/libreria_28864569.f926s1fufz.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\libreria_28864569.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1445551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wAVe1e/4cVfWN51KlkUYEuX1Eo8PdU05TI3Wn3l3Ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:03:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f926s1fufz"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/libreria_28864569.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wAVe1e/4cVfWN51KlkUYEuX1Eo8PdU05TI3Wn3l3Ls="
+        }
+      ]
+    },
+    {
+      "Route": "Images/libreria_28864569.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\libreria_28864569.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1445551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8wAVe1e/4cVfWN51KlkUYEuX1Eo8PdU05TI3Wn3l3Ls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:03:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8wAVe1e/4cVfWN51KlkUYEuX1Eo8PdU05TI3Wn3l3Ls="
+        }
+      ]
+    },
+    {
+      "Route": "Images/mesa-de-centro_25756891.iyurhbpcnv.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_25756891.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1568304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eiIjVsDyEgYDOsZgAgdOxG06XY1n21KecnDJTAt+yxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:01:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iyurhbpcnv"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/mesa-de-centro_25756891.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eiIjVsDyEgYDOsZgAgdOxG06XY1n21KecnDJTAt+yxo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/mesa-de-centro_25756891.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_25756891.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1568304"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eiIjVsDyEgYDOsZgAgdOxG06XY1n21KecnDJTAt+yxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:01:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eiIjVsDyEgYDOsZgAgdOxG06XY1n21KecnDJTAt+yxo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/mesa-de-centro_302593.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_302593.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:01:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/mesa-de-centro_302593.vptgyiix9n.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_302593.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:01:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vptgyiix9n"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/mesa-de-centro_302593.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/mesa-de-comedor_241028061007_41512575.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-comedor_241028061007_41512575.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9uqp/OKLi/R57Cfs9llNaeCuASPN3MhJBGAJrg2mSxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:00:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9uqp/OKLi/R57Cfs9llNaeCuASPN3MhJBGAJrg2mSxw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/mesa-de-comedor_241028061007_41512575.uy5bw2pc5s.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-comedor_241028061007_41512575.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9uqp/OKLi/R57Cfs9llNaeCuASPN3MhJBGAJrg2mSxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:00:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uy5bw2pc5s"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/mesa-de-comedor_241028061007_41512575.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9uqp/OKLi/R57Cfs9llNaeCuASPN3MhJBGAJrg2mSxw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/silla_241022032509_41429559.7hzshdnfgq.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\silla_241022032509_41429559.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141381"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZSi1Pu69PdjTGCadMaFqGbD+dmA26H09TOEY/XtDRLM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:00:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7hzshdnfgq"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/silla_241022032509_41429559.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZSi1Pu69PdjTGCadMaFqGbD+dmA26H09TOEY/XtDRLM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/silla_241022032509_41429559.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\silla_241022032509_41429559.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "141381"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZSi1Pu69PdjTGCadMaFqGbD+dmA26H09TOEY/XtDRLM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:00:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZSi1Pu69PdjTGCadMaFqGbD+dmA26H09TOEY/XtDRLM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/sofa_20959237.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\sofa_20959237.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sRQ7CxEiR5dnqGUHKgA3aB86pLljHgcttT+eflrL7JE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:02:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sRQ7CxEiR5dnqGUHKgA3aB86pLljHgcttT+eflrL7JE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/sofa_20959237.panzghodsl.jpg",
+      "AssetFile": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\sofa_20959237.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sRQ7CxEiR5dnqGUHKgA3aB86pLljHgcttT+eflrL7JE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 19:02:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "panzghodsl"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/sofa_20959237.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sRQ7CxEiR5dnqGUHKgA3aB86pLljHgcttT+eflrL7JE="
         }
       ]
     },

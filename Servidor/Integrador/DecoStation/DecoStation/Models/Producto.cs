@@ -23,14 +23,16 @@ namespace DecoStation.Models
         [Required(ErrorMessage = "El stock del producto es un campo requerido.")]
         public int? Stock { get; set; }
 
+        public bool? Escaparate { get; set; }
+
         [Display(Name = "Imagen del Producto")]
-        public int ImageId { get; set; }
+        public string? Imagen { get; set; }
 
         [Display(Name = "Categoría")]
-        public int CategoryId { get; set; }
-        [Display(Name = "Imagen del Producto")]
-        public Imagen? Image { get; set; }
+        public int CategoriaID { get; set; }
+
         [Display(Name = "Categoría")]
         public Categoria? Category { get; set; }
+        public ICollection<Detalle>? Detalles { get; set; }
     }
 }

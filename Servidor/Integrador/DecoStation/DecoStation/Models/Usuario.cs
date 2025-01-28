@@ -18,10 +18,6 @@ namespace DecoStation.Models
         [Display(Name = "Código Postal")]
         [Required(ErrorMessage = "La código postal del usuario es un campo requerido.")]
         public string? CodigoPostal { get; set; }
-        [Display(Name = "Fecha de nacimiento")]
-        [DataType(DataType.Date)]
-        [Required(ErrorMessage = "La fecha de nacimiento del usuario es un campo requerido.")]
-        public DateTime? BirthDate { get; set; }
 
         [Display(Name = "Número de teléfono")]
         [Required(ErrorMessage = "El número de teléfono del usuario es un campo requerido.")]
