@@ -10,34 +10,28 @@ using DecoStation.Models;
 
 namespace DecoStation.Controllers
 {
-    public class UsuariosController : Controller
+    public class EscaparateController : Controller
     {
         private readonly DecoStationContexto _context;
 
-        public UsuariosController(DecoStationContexto context)
+        public EscaparateController(DecoStationContexto context)
         {
             _context = context;
         }
 
-        // GET: Usuarios
-        public async Task<IActionResult> Index(string busquedaNombre)
+        // GET: Escaparate
+        public async Task<IActionResult> Index(int? id)
         {
-            ViewData["BusquedaNombreActual"] = busquedaNombre;
-            var usuarios = _context.Users.AsQueryable();
-
-            usuarios = usuarios.OrderByDescending(x => x.Id);
-
-            if (!String.IsNullOrEmpty(busquedaNombre))
+            var decoStationContexto = _context.Products.Include(p => p.Category);
+            if (id == null)
             {
-                usuarios = usuarios.Where( u => u.FullName.Contains(busquedaNombre));
+                return View(await decoStationContexto.ToListAsync());
             }
-
-            usuarios = usuarios.Include(e => e.Orders);
-
-            return View(await usuarios.AsNoTracking().ToListAsync());
+            var productoConCategoriaId = await decoStationContexto.Where(p => p.CategoriaID == id).ToListAsync();
+            return View(productoConCategoriaId);
         }
 
-        // GET: Usuarios/Details/5
+        // GET: Escaparate/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -45,39 +39,42 @@ namespace DecoStation.Controllers
                 return NotFound();
             }
 
-            var usuario = await _context.Users
+            var producto = await _context.Products
+                .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
+            if (producto == null)
             {
                 return NotFound();
             }
 
-            return View(usuario);
+            return View(producto);
         }
 
-        // GET: Usuarios/Create
+        // GET: Escaparate/Create
         public IActionResult Create()
         {
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id");
             return View();
         }
 
-        // POST: Usuarios/Create
+        // POST: Escaparate/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FullName,Email,Direction,CodigoPostal,PhoneNumber")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,Stock,Escaparate,Imagen,CategoriaID")] Producto producto)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(usuario);
+                _context.Add(producto);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(usuario);
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id", producto.CategoriaID);
+            return View(producto);
         }
 
-        // GET: Usuarios/Edit/5
+        // GET: Escaparate/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -85,22 +82,23 @@ namespace DecoStation.Controllers
                 return NotFound();
             }
 
-            var usuario = await _context.Users.FindAsync(id);
-            if (usuario == null)
+            var producto = await _context.Products.FindAsync(id);
+            if (producto == null)
             {
                 return NotFound();
             }
-            return View(usuario);
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id", producto.CategoriaID);
+            return View(producto);
         }
 
-        // POST: Usuarios/Edit/5
+        // POST: Escaparate/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,FullName,Email,Direction,CodigoPostal,PhoneNumber")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Price,Stock,Escaparate,Imagen,CategoriaID")] Producto producto)
         {
-            if (id != usuario.Id)
+            if (id != producto.Id)
             {
                 return NotFound();
             }
@@ -109,12 +107,12 @@ namespace DecoStation.Controllers
             {
                 try
                 {
-                    _context.Update(usuario);
+                    _context.Update(producto);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!UsuarioExists(usuario.Id))
+                    if (!ProductoExists(producto.Id))
                     {
                         return NotFound();
                     }
@@ -125,10 +123,11 @@ namespace DecoStation.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(usuario);
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id", producto.CategoriaID);
+            return View(producto);
         }
 
-        // GET: Usuarios/Delete/5
+        // GET: Escaparate/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -136,34 +135,35 @@ namespace DecoStation.Controllers
                 return NotFound();
             }
 
-            var usuario = await _context.Users
+            var producto = await _context.Products
+                .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
+            if (producto == null)
             {
                 return NotFound();
             }
 
-            return View(usuario);
+            return View(producto);
         }
 
-        // POST: Usuarios/Delete/5
+        // POST: Escaparate/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var usuario = await _context.Users.FindAsync(id);
-            if (usuario != null)
+            var producto = await _context.Products.FindAsync(id);
+            if (producto != null)
             {
-                _context.Users.Remove(usuario);
+                _context.Products.Remove(producto);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool UsuarioExists(int id)
+        private bool ProductoExists(int id)
         {
-            return _context.Users.Any(e => e.Id == id);
+            return _context.Products.Any(e => e.Id == id);
         }
     }
 }
