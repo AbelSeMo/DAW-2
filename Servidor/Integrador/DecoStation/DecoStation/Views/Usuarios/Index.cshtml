@@ -9,6 +9,31 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+@* Agregar un cuadro de búsqueda en la vista Index de Avisos *@ 
+<form asp-action="Index">
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col-md">
+                <label class="control-label">Nombre usuario:</label>
+                <input type="text" name="strCadenaBusqueda"
+                       value="@ViewData["BusquedaNombreActual"]" class="form-control" />
+            </div>
+            <div class="col-md">
+                <label class="control-label">Pedido:</label>
+                <select name="intIdPedido" asp-items="ViewBag.Id"
+                        class="form-control">
+                    <option value="">Todas</option>
+                </select>
+            </div>
+            <div class="col-md align-self-end">
+                <input type="submit" value="Buscar" class="btn btn-default" /> |
+                <a asp-action="Index" class="btn btn-default">Lista completa</a>
+            </div>
+        </div>
+    </div>
+</form>
+
 <table class="table">
     <thead>
         <tr>

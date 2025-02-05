@@ -20,16 +20,27 @@ namespace DecoStation.Controllers
         }
 
         // GET: Usuarios
-        public async Task<IActionResult> Index(string busquedaNombre)
+        public async Task<IActionResult> Index(string busquedaNombre, int? intIdPedido)
         {
             ViewData["BusquedaNombreActual"] = busquedaNombre;
             var usuarios = _context.Users.AsQueryable();
+            var pedidos = _context.Orders.AsQueryable();
 
             usuarios = usuarios.OrderByDescending(x => x.Id);
 
             if (!String.IsNullOrEmpty(busquedaNombre))
             {
                 usuarios = usuarios.Where( u => u.FullName.Contains(busquedaNombre));
+            }
+
+            if(intIdPedido == null)
+            {
+                ViewData["BusquedaPedido"] = new SelectList(_context.Orders, "Id", "Confirmed");
+            }
+            else
+            {
+                ViewData["BusquedaPedido"] = new SelectList(_context.Orders, "Id", "Confirmed" ,intIdPedido);
+                pedidos = pedidos.Where( p => p.Id == intIdPedido);
             }
 
             usuarios = usuarios.Include(e => e.Orders);
