@@ -1,0 +1,121 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-areas: "parte1 parte1 parte2 parte3 parte4"
+                         "parte5 parte6 parte7 parte7 parte4"
+                         "parte5 parte8 parte7 parte7 parte9"
+                         "parte10 parte8 parte11 parte12 parte12";
+    border: 10px;
+    border-style: solid;
+    border-color: #07425E;
+    border-radius: 20px;
+    height: 60vh;
+    margin: 10px;
+    padding: 10px;
+    *{
+        border-radius: 8px;
+        margin: 5px;
+    }
+
+}
+
+.parte1{
+    grid-area: parte1;
+    background-color: #009E5C;
+}
+
+.parte2{
+    grid-area: parte2;
+    background-color: #009E9A;
+}
+
+.parte3{
+    grid-area: parte3;
+    background-color: #0080B8;
+}
+
+.parte4{
+    grid-area: parte4;
+    background-color: #455AA2;
+}
+
+.parte5{
+    grid-area: parte5;
+    background-color: #71B34D;
+}
+
+.parte6{
+    grid-area: parte6;
+    background-color: #41AC6E;
+}
+
+.parte7{
+    grid-area: parte7;
+    background-color: #8E7D94;
+}
+
+.parte8{
+    grid-area: parte8;
+    background-color: #A761A1;
+}
+
+.parte9{
+    grid-area: parte9;
+    background-color: #F4B158;
+}
+
+.parte10{
+    grid-area: parte10;
+    background-color: #D8A268;
+}
+
+.parte11{
+    grid-area: parte11;
+    background-color: #EB7E73;
+}
+
+.parte12{
+    grid-area: parte12;
+    background-color: #E777A1;
+    grid-column: 3/6;
+    z-index: 1;
+}
+
+@media(max-width:678px){
+    .contenedor{
+        display: grid;
+    grid-template-areas: "parte1 parte1 parte2 parte3"
+                         "parte5 parte6 parte7 parte7"
+                         "parte5 parte8 parte7 parte7"
+                         "parte10 parte8 parte11 parte12";
+    border: 10px;
+    border-style: solid;
+    border-color: #07425E;
+    border-radius: 20px;
+    height: 30vh;
+    margin: 10px;
+    padding: 10px;
+    *{
+        border-radius: 8px;
+        margin: 5px;
+    }
+    }
+
+    .parte12{
+        grid-area: parte12;
+        background-color: #E777A1;
+    }
+    .parte4{
+        display: none;
+    }
+    .parte9{
+        display: none;
+    }
+}
+
