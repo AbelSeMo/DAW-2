@@ -296,6 +296,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/MisDatos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzRGF0b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/MisDatos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzRGF0b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

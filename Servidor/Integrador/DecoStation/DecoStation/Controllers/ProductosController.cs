@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using DecoStation.Data;
 using DecoStation.Models;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DecoStation.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class ProductosController : Controller
     {
         private readonly DecoStationContexto _context;

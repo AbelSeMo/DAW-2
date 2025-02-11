@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DecoStation.Data;
 using DecoStation.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DecoStation.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class UsuariosController : Controller
     {
         private readonly DecoStationContexto _context;
