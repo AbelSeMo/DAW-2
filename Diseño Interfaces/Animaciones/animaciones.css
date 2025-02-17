@@ -1,0 +1,31 @@
+
+button{
+    i{
+        animation: agrandar 2s 20s;
+        color: lightgreen;
+    }
+    width: 20vh;
+    height: 10vh;
+    border-color: blue;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: darkgrey;
+}
+
+.click{
+    animation-play-state: paused;
+}
+
+.continuar{
+    animation-play-state: running;
+}
+
+@keyframes agrandar {
+    to{
+        transform: scale(1.2);
+        color: darkgreen;
+    }
+}

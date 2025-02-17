@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animaciones.css">
+    <script src="https://kit.fontawesome.com/16e433afdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <button type="button" onclick="detenerse()">Registrarse <i id="icono" class="fas fa-user"></i></button>
+    </main>
+    <script>
+        function detenerse(){
+            let icono = document.getElementById("icono");
+            if(icono.classList.contains("click")){
+                icono.classList.remove("click")
+                icono.classList.add("continuar")
+            }
+            else{
+                icono.classList.add("click");
+            }
+        }
+    </script>
+</body>
+</html>
