@@ -6,7 +6,6 @@ namespace DecoStation.Models
     {
         public int Id { get; set; }
         [Display(Name = "Nombre Completo")]
-        [Required(ErrorMessage = "El nombre completo del usuario es un campo requerido.")]
         public string? FullName { get; set; }
         [Display(Name = "Correo electrónico")]
         [EmailAddress(ErrorMessage = "Dirección de correo electrónico invalida")]

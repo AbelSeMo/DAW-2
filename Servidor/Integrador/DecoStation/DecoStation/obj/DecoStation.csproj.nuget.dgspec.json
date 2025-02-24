@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\DecoStation.csproj": {}
+    "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\DecoStation.csproj": {}
   },
   "projects": {
-    "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\DecoStation.csproj": {
+    "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\DecoStation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\DecoStation.csproj",
+        "projectUniqueName": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\DecoStation.csproj",
         "projectName": "DecoStation",
-        "projectPath": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\DecoStation.csproj",
-        "packagesPath": "C:\\Users\\lu199\\.nuget\\packages\\",
-        "outputPath": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\obj\\",
+        "projectPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\DecoStation.csproj",
+        "packagesPath": "C:\\Users\\abesermon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abesermon\\Documents\\GitHub\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lu199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abesermon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,9 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
