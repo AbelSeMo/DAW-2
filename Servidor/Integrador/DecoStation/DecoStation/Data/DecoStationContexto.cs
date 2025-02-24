@@ -5,6 +5,8 @@ namespace DecoStation.Data
 {
     public class DecoStationContexto : DbContext
     {
+        internal object Detalles;
+
         public DecoStationContexto(DbContextOptions<DecoStationContexto> options)
           : base(options)
         {

@@ -1,0 +1,72 @@
+﻿@model DecoStation.Models.Pedido
+
+@{
+    ViewData["Title"] = "Carrito de la Compra";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Carrito</h1>
+
+@if (Model != null)
+{
+    <div>
+        <h3>Pedido # @Model.Id</h3>
+        <p>Fecha de Envío: @Model.DeliveryTime?.ToShortDateString()</p>
+        <p>Estado: @Model.Condition?.Description</p>
+    </div>
+
+    @if (Model.Detalles != null && Model.Detalles.Any())
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Subtotal</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var detalle in Model.Detalles)
+                {
+                    <tr>
+                        <td>@detalle.Producto?.Name</td>
+                        <td>@detalle.Quantity</td>
+                        <td>@detalle.Producto?.Price.ToString()</td>
+                        <td>@detalle.Summary?.ToString()</td>
+                        <td>
+                            <form asp-action="MasCantidad" method="post" style="display:inline">
+                                <input type="hidden" name="id" value="@detalle.Id" />
+                                <button type="submit" class="btn btn-sm btn-primary">+</button>
+                            </form>
+                            <form asp-action="MenosCantidad" method="post" style="display:inline">
+                                <input type="hidden" name="id" value="@detalle.Id" />
+                                <button type="submit" class="btn btn-sm btn-warning">-</button>
+                            </form>
+                            <form asp-action="EliminarLinea" method="post" style="display:inline">
+                                <input type="hidden" name="id" value="@detalle.Id" />
+                                <button type="submit" class="btn btn-sm btn-danger">Eliminar</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <form asp-action="ConfirmarPedido" method="post">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <button type="submit" class="btn btn-success">Confirmar Pedido</button>
+        </form>
+    }
+    else
+    {
+        <p>No hay productos en el carrito.</p>
+    }
+}
+else
+{
+    <p>No se encontró el pedido en el carrito.</p>
+}
+
+<a asp-controller="Escaparate" asp-action="Index" class="btn btn-info">Seguir Comprando</a>

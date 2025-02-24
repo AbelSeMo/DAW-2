@@ -24,13 +24,28 @@ namespace DecoStation.Controllers
         // GET: Escaparate
         public async Task<IActionResult> Index(int? id)
         {
-            var decoStationContexto = _context.Products.Include(p => p.Category);
+            // Obtener la lista de categorías ordenadas por nombre
+            var categorias = await _context.Categories
+                .OrderBy(c => c.Name)
+                .ToListAsync();
+            ViewData["Categories"] = categorias;
+
+            // Preparar la consulta de productos incluyendo la categoría asociada
+            IQueryable<Producto> consulta = _context.Products.Include(p => p.Category);
+
+            // Si no se pasa id, se muestran los productos destacados (Escaparate = true)
             if (id == null)
             {
-                return View(await decoStationContexto.ToListAsync());
+                consulta = consulta.Where(p => p.Escaparate == true);
             }
-            var productoConCategoriaId = await decoStationContexto.Where(p => p.CategoriaID == id).ToListAsync();
-            return View(productoConCategoriaId);
+            else
+            {
+                // Si se selecciona una categoría, se filtran los productos por CategoriaID
+                consulta = consulta.Where(p => p.CategoriaID == id);
+            }
+
+            var productos = await consulta.ToListAsync();
+            return View(productos);
         }
 
         // GET: Escaparate/Details/5
@@ -55,7 +70,7 @@ namespace DecoStation.Controllers
         // GET: Escaparate/Create
         public IActionResult Create()
         {
-            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id");
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
 
@@ -72,7 +87,7 @@ namespace DecoStation.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id", producto.CategoriaID);
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Name", producto.CategoriaID);
             return View(producto);
         }
 
@@ -89,7 +104,7 @@ namespace DecoStation.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id", producto.CategoriaID);
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Name", producto.CategoriaID);
             return View(producto);
         }
 
@@ -166,6 +181,74 @@ namespace DecoStation.Controllers
         private bool ProductoExists(int id)
         {
             return _context.Products.Any(e => e.Id == id);
+        }
+
+        // POST: Escaparate/AgregarCarrito/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AgregarCarritoPost(int id)
+        {
+            // Buscar el producto a agregar
+            var producto = await _context.Products.FindAsync(id);
+            if (producto == null) return NotFound();
+
+            // Comprobar si existe la variable de sesión "NumPedido"
+            var strNumPedido = HttpContext.Session.GetString("NumPedido");
+            Pedido pedidoActual = null;
+
+            if (string.IsNullOrEmpty(strNumPedido))
+            {
+                // Obtener el usuario actual mediante su email (User.Identity.Name)
+                string userEmail = User.Identity.Name;
+                var usuarioActual = await _context.Users.FirstOrDefaultAsync(u => u.Email == userEmail);
+                if (usuarioActual == null)
+                {
+                    return Unauthorized();
+                }
+
+                // Carrito vacío: crear un nuevo pedido
+                pedidoActual = new Pedido
+                {
+                    DeliveryTime = DateTime.Now,
+                    Confirmed = null,
+                    Prepared = null,
+                    Delivered = null,
+                    Paid = null,
+                    Returned = null,
+                    Cancelled = null,
+                    // Asignar el id del usuario real
+                    UserId = usuarioActual.Id,
+                    // Estado "Pendiente", por ejemplo, ConditionId = 1
+                    ConditionId = 1
+                };
+
+                _context.Orders.Add(pedidoActual);
+                await _context.SaveChangesAsync();
+
+                // Guardar en sesión el Id del nuevo pedido
+                HttpContext.Session.SetString("NumPedido", pedidoActual.Id.ToString());
+            }
+            else
+            {
+                int pedidoId = int.Parse(strNumPedido);
+                pedidoActual = await _context.Orders.FindAsync(pedidoId);
+            }
+
+            // Crear la línea de detalle
+            Detalle detalle = new Detalle
+            {
+                OrderId = pedidoActual.Id,
+                ProductId = producto.Id,
+                Quantity = 1,
+                // Se establece el subtotal igual al precio del producto para una unidad
+                Summary = producto.Price
+            };
+
+            _context.Details.Add(detalle);
+            await _context.SaveChangesAsync();
+
+            // Redirigir al carrito para visualizar el pedido actualizado
+            return RedirectToAction("Index", "Carrito");
         }
     }
 }
