@@ -1,0 +1,45 @@
+﻿@model DecoStation.Models.Usuario
+
+@{
+    ViewData["Title"] = "Mis Datos";
+}
+
+<h1>Mis Datos</h1>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.FullName)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.FullName)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Email)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.Direction)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.Direction)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.CodigoPostal)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.CodigoPostal)
+            </dd>
+            <dt class="col-sm-3">
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </dt>
+            <dd class="col-sm-9">
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </dd>
+        </dl>
+        <a asp-action="Edit" class="btn btn-primary">Editar mis datos</a>
+    </div>
+</div>

@@ -17,401 +17,405 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DecoStation
 build_property.RootNamespace = DecoStation
-build_property.ProjectDir = C:\Users\abesermon\Documents\GitHub\DAW-2\Servidor\Integrador\DecoStation\DecoStation\
+build_property.ProjectDir = E:\Repositorios\DAW-2\Servidor\Integrador\DecoStation\DecoStation\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\abesermon\Documents\GitHub\DAW-2\Servidor\Integrador\DecoStation\DecoStation
+build_property.MSBuildProjectDirectory = E:\Repositorios\DAW-2\Servidor\Integrador\DecoStation\DecoStation
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Lockout.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Login.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Logout.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Register.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Error.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/_ViewImports.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/_ViewStart.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/CarritoVacio.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/CarritoVacio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xDYXJyaXRvVmFjaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/Create.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/Delete.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/Details.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/Edit.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Carrito/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Categorias/Create.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Categorias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Categorias/Delete.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Categorias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Categorias/Details.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Categorias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Categorias/Edit.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Categorias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Categorias/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Categorias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Detalles/Create.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Detalles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Detalles/Delete.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Detalles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Detalles/Details.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Detalles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Detalles/Edit.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Detalles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Detalles/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Detalles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Create.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjYXBhcmF0ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Delete.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjYXBhcmF0ZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Details.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjYXBhcmF0ZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Edit.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjYXBhcmF0ZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjYXBhcmF0ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Estados/Create.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Estados/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Estados/Delete.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Estados/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Estados/Details.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Estados/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Estados/Edit.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Estados/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Estados/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Estados/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0YWRvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Home/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Home/Privacy.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Create.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Delete.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Details.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Edit.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/MisDatos/Create.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/MisDatos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzRGF0b3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/MisDatos/Edit.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/MisDatos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzRGF0b3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Create.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/MisDatos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlzRGF0b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Delete.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Details.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Edit.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Pedidos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVkaWRvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/CambiarImagen.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/CambiarImagen.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENhbWJpYXJJbWFnZW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/Create.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/Delete.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/Details.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/Edit.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Productos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Shared/Error.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Shared/_LoginPartial.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Usuarios/Create.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Usuarios/Delete.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Usuarios/Details.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Usuarios/Edit.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Usuarios/Index.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/_ViewImports.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/_ViewStart.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/abesermon/Documents/GitHub/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Shared/_Layout.cshtml]
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xcz3iarikz

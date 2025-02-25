@@ -16,6 +16,25 @@ namespace DecoStation.Controllers
             _context = context;
         }
 
+        public async Task<IActionResult> Index()
+        {
+            // Se obtiene el correo del usuario autenticado
+            string? emailUsuario = User.Identity.Name;
+
+            // Se busca en la base de datos el registro del usuario actual
+            Usuario? usuario = await _context.Users
+                  .Where(e => e.Email == emailUsuario)
+                  .FirstOrDefaultAsync();
+
+            // Si no existe, redirige a la acción Create para que el usuario ingrese sus datos
+            if (usuario == null)
+            {
+                return RedirectToAction("Create");
+            }
+
+            return View(usuario);
+        }
+
         // GET: MisDatos/Create 
         public IActionResult Create()
         {
@@ -26,10 +45,12 @@ namespace DecoStation.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult>
-        Create([Bind("Id,Fullname,Email,Direction,CodigoPostal,PhoneNumber")] Usuario usuario)
+        Create([Bind("Id,FullName,Direction,CodigoPostal,PhoneNumber")] Usuario usuario)
         {
             // Asignar el Email del usuario actual 
             usuario.Email = User.Identity.Name;
+
+            ModelState.Remove("Email");
 
             if (ModelState.IsValid)
             {
@@ -59,7 +80,7 @@ namespace DecoStation.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id,
-            [Bind("Id,Fullname,Email,Telefono,FechaNacimiento")] Usuario usuario)
+            [Bind("Id,FullName,Direction,CodigoPostal,PhoneNumber")] Usuario usuario)
         {
             if (id != usuario.Id)
             {

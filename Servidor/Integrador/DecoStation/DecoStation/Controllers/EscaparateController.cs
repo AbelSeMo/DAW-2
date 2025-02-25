@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace DecoStation.Controllers
 {
-    [Authorize(Roles = "Administrador")]
+    [Authorize(Roles = "Usuario")]
     public class EscaparateController : Controller
     {
         private readonly DecoStationContexto _context;

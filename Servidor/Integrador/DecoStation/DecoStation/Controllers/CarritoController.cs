@@ -23,13 +23,11 @@ namespace DecoStation.Controllers
         public async Task<IActionResult> Index()
         {
             // Recupera el número de pedido desde la sesión
-            var strNumPedido = HttpContext.Session.GetString("NumPedido");
-            if (string.IsNullOrEmpty(strNumPedido))
+            int? NumPedido = HttpContext.Session.GetInt32("NumPedido");
+            if (NumPedido == null)
             {
                 return RedirectToAction(nameof(CarritoVacio));
             }
-
-            int pedidoId = int.Parse(strNumPedido);
 
             // Cargar el pedido actual con sus detalles
             var pedido = await _context.Orders
@@ -37,7 +35,7 @@ namespace DecoStation.Controllers
                     .ThenInclude(d => d.Producto)
                 .Include(o => o.Condition)
                 .Include(o => o.User)
-                .FirstOrDefaultAsync(o => o.Id == pedidoId);
+                .FirstOrDefaultAsync(o => o.Id == NumPedido);
 
             if (pedido == null)
             {
