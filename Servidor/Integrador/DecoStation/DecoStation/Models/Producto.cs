@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DecoStation.Models
 {
@@ -13,15 +14,21 @@ namespace DecoStation.Models
         [Display(Name = "Descripción")]
         public string? Description { get; set; }
 
-        [Display(Name = "Precio")]
-        [DataType(DataType.Currency, ErrorMessage = "Formato de precio no válido.")]
-        [Range(0, double.MaxValue, ErrorMessage = "El precio debe ser un valor positivo.")]
-        [Required(ErrorMessage = "El precio es un campo requerido.")]
-        public decimal? Price { get; set; }
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "decimal(9, 2)")]
+        public decimal Price { get; set; }
 
-        [Display(Name = "Stock")]
-        [Required(ErrorMessage = "El stock del producto es un campo requerido.")]
-        public int? Stock { get; set; }
+        [Display(Name = "Precio")]
+        [RegularExpression(@"^[-0123456789]+[0-9.,]*$",
+        ErrorMessage = "El valor introducido debe ser de tipo monetario.")]
+        [Required(ErrorMessage = "El precio es un campo requerido")]
+        public string PriceChain
+        {
+            get
+            {
+                return Convert.ToString(Price).Replace(',', '.');
+            }
+        }
 
         public bool? Escaparate { get; set; }
 

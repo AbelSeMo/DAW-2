@@ -7,53 +7,49 @@
 
 <h1>Escaparate</h1>
 
-<!-- Filtro de Categorías -->
-<div>
-    <h3>Categorías</h3>
-    <table class="table">
-        <tr>
-            <td>
-                <!-- Enlace para productos destacados -->
-                <a asp-action="Index" class="btn btn-link">Escaparate</a>
-            </td>
-            @if (categorias != null)
-            {
-                foreach (var categoria in categorias)
-                {
-                    <td>
-                        <!-- Enlace para filtrar por cada categoría -->
-                        <a asp-action="Index" asp-route-id="@categoria.Id" class="btn btn-link">@categoria.Name</a>
-                    </td>
-                }
-            }
-        </tr>
-    </table>
-</div>
 
-<!-- Listado de Productos -->
-<table class="table">
-    <thead>
-        <tr>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Name)</th>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Description)</th>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Price)</th>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Stock)</th>
-            <th>@Html.DisplayNameFor(model => model.FirstOrDefault().Imagen)</th>
-            <th>Categoría</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@Html.DisplayFor(modelItem => item.Name)</td>
-                <td>@Html.DisplayFor(modelItem => item.Description)</td>
-                <td>@Html.DisplayFor(modelItem => item.Price)</td>
-                <td>@Html.DisplayFor(modelItem => item.Stock)</td>
-                <td><img src="@Url.Content(item.Imagen)" alt="Imagen de @item.Name" style="max-height:100px;" /></td>
-                <td>@item.Category?.Name</td>
-            </tr>
-        }
-    </tbody>
-</table>
+<<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <h4>Categorías</h4>
+            <div class="categories-container border p-2 rounded">
+
+                <div class="category-item border-bottom py-2">
+                    <a asp-action="Index" asp-route-id="null" class="category-link">Novedades</a>
+                </div>
+                    <div class="category-item border-bottom py-2">
+                        <a asp-action="Index" asp-route-id="@categorias.Id" class="category-link">@categorias.Name</a>
+                    </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <h4>Productos</h4>
+            <div class="container">
+                <div class="row">
+                    @foreach (var producto in Model)
+                    {
+                        <div class="col-lg-3 col-sm-4 col-6">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    @{
+                                        var nombreImagen = "no-imagen.jpg";
+                                        if (producto.Imagen != null)
+                                        {
+                                            nombreImagen = producto.Imagen;
+                                        }
+                                    }
+                                    <img src="~/imagenes/productos/@nombreImagen" class="img-fluid" asp-append-version="true" />
+                                    <a asp-action="AgregarCarrito" asp-route-id="@producto.Id" class="stretched-link"></a>
+                                </div>
+                                <div class="card-body">
+                                    <p class="card-text">@producto.Name</p>
+                                    <h5 class="card-title">@producto.Price.ToString("C")</h5>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

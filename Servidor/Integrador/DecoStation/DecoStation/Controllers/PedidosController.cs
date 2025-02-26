@@ -39,6 +39,7 @@ namespace DecoStation.Controllers
             var pedido = await _context.Orders
                 .Include(p => p.Condition)
                 .Include(p => p.User)
+                .Include(p => p.Detalles)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (pedido == null)
             {
@@ -108,7 +109,22 @@ namespace DecoStation.Controllers
             {
                 try
                 {
-                    _context.Update(pedido);
+                    var pedidosExistentes = await _context.Orders.FindAsync(id);
+
+                    if (pedidosExistentes == null)
+                    {
+                        return NotFound();
+                    }
+
+                    pedidosExistentes.ConditionId = pedido.ConditionId;
+                    pedidosExistentes.Confirmed = (pedido.ConditionId == 1) ? DateTime.Now : pedidosExistentes.Confirmed;
+                    pedidosExistentes.Prepared = (pedido.ConditionId == 2) ? DateTime.Now : pedidosExistentes.Prepared;
+                    pedidosExistentes.Delivered = (pedido.ConditionId == 3) ? DateTime.Now : pedidosExistentes.Delivered;
+                    pedidosExistentes.Paid = (pedido.ConditionId == 4) ? DateTime.Now : pedidosExistentes.Paid;
+                    pedidosExistentes.Returned = (pedido.ConditionId == 5) ? DateTime.Now : pedidosExistentes.Returned;
+                    pedidosExistentes.Cancelled = (pedido.ConditionId == 6) ? DateTime.Now : pedidosExistentes.Cancelled;
+
+                    _context.Update(pedidosExistentes);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -125,7 +141,6 @@ namespace DecoStation.Controllers
                 return RedirectToAction(nameof(Index));
             }
             ViewData["ConditionId"] = new SelectList(_context.Conditions, "Id", "Description", pedido.ConditionId);
-            ViewData["UserId"] = new SelectList(_context.Users, "Id", "CodigoPostal", pedido.UserId);
             return View(pedido);
         }
 
@@ -168,5 +183,64 @@ namespace DecoStation.Controllers
         {
             return _context.Orders.Any(e => e.Id == id);
         }
+        // GET: Pedidos/AvanzarEstado/5
+        public async Task<IActionResult> SiguienteEstado(int id)
+        {
+            // Buscar el pedido por ID
+            var pedido = await _context.Orders
+                .Include(p => p.Condition)
+                .FirstOrDefaultAsync(p => p.Id == id);
+
+            // Verificar si el pedido existe
+            if (pedido == null)
+            {
+                return NotFound();
+            }
+
+            // Verificar que el pedido no esté en el último estado posible (Entregado)
+            if (pedido.ConditionId > 3)
+            {
+                return BadRequest("El pedido ya está en el estado final.");
+            }
+
+            // Obtener el siguiente estado
+            var siguienteEstado = _context.Conditions
+                .FirstOrDefault(e => e.Id == pedido.ConditionId + 1);
+
+            if (siguienteEstado == null)
+            {
+                return NotFound("El siguiente estado no existe.");
+            }
+
+            // Actualizar el estado del pedido
+            pedido.ConditionId = siguienteEstado.Id;
+
+            // Asignar la fecha correspondiente al nuevo estado
+            switch (siguienteEstado.Description)
+            {
+                case "Confirmado":
+                    pedido.Confirmed = DateTime.Now;
+                    break;
+                case "Preparado":
+                    pedido.Prepared = DateTime.Now;
+                    break;
+                case "Enviado":
+                    pedido.Delivered = DateTime.Now;
+                    break;
+                case "Cobrado":
+                    pedido.Paid = DateTime.Now;
+                    break;
+                default:
+                    break;
+            }
+
+            // Guardar los cambios en la base de datos
+            _context.Update(pedido);
+            await _context.SaveChangesAsync();
+
+            // Redirigir al usuario a la página de detalles del pedido
+            return RedirectToAction("Index");
+        }
+
     }
 }

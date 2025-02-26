@@ -1,16 +1,17 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\Images\accesorios-para-vino-y-bar_241001102251_40763089.jpg
-wwwroot\Images\aparador_241230061004_43359351.jpg
-wwwroot\Images\aparador_32691859.jpg
+wwwroot\Images\Aparador de piedra.jpg
+wwwroot\Images\Aparador Your Style.jpg
 wwwroot\Images\conjunto-de-mesa-y-sillas_8122587.jpg
-wwwroot\Images\estante_28861333.jpg
-wwwroot\Images\libreria_28864569.jpg
-wwwroot\Images\mesa-de-centro_25756891.jpg
-wwwroot\Images\mesa-de-centro_302593.jpg
-wwwroot\Images\mesa-de-comedor_241028061007_41512575.jpg
-wwwroot\Images\silla_241022032509_41429559.jpg
-wwwroot\Images\sofa_20959237.jpg
+wwwroot\Images\Estante irregular.jpg
+wwwroot\Images\Libreria.jpg
+wwwroot\Images\Mesa de cristal.jpg
+wwwroot\Images\Mesa normal.jpg
+wwwroot\Images\Mesa redondeada.jpg
+wwwroot\Images\noStock.png
+wwwroot\Images\Petaca inscrita.jpg
+wwwroot\Images\Silla medio taburete.jpg
+wwwroot\Images\Sofa clásico.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

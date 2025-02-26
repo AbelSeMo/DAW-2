@@ -17,51 +17,42 @@ namespace DecoStation.Controllers
     {
         private readonly DecoStationContexto _context;
         private readonly IWebHostEnvironment _webHostEnvironment;
-        public ProductosController(DecoStationContexto context, IWebHostEnvironment HostEnvironment)
+
+        public ProductosController(DecoStationContexto context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
-            _webHostEnvironment = HostEnvironment;
+            _webHostEnvironment = hostEnvironment;
         }
 
         // GET: Productos
         public async Task<IActionResult> Index()
         {
-            var decoStationContexto = _context.Products.Include(p => p.Category);
-            return View(await decoStationContexto.ToListAsync());
+            var productos = _context.Products.Include(p => p.Category);
+            return View(await productos.ToListAsync());
         }
 
         // GET: Productos/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
+            if (id == null) return NotFound();
             var producto = await _context.Products
                 .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (producto == null)
-            {
-                return NotFound();
-            }
-
+            if (producto == null) return NotFound();
             return View(producto);
         }
 
         // GET: Productos/Create
         public IActionResult Create()
         {
-            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id");
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Name");
             return View();
         }
 
         // POST: Productos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,Stock,Escaparate,Imagen,CategoriaID")] Producto producto)
+        public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,Escaparate,Imagen,CategoriaID")] Producto producto)
         {
             if (ModelState.IsValid)
             {
@@ -69,43 +60,40 @@ namespace DecoStation.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id", producto.CategoriaID);
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Name", producto.CategoriaID);
             return View(producto);
         }
 
         // GET: Productos/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
+            if (id == null) return NotFound();
             var producto = await _context.Products.FindAsync(id);
-            if (producto == null)
-            {
-                return NotFound();
-            }
-            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id", producto.CategoriaID);
+            if (producto == null) return NotFound();
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Name", producto.CategoriaID);
             return View(producto);
         }
 
         // POST: Productos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Price,Stock,Escaparate,Imagen,CategoriaID")] Producto producto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Price,Escaparate,Imagen,CategoriaID")] Producto producto)
         {
-            if (id != producto.Id)
-            {
-                return NotFound();
-            }
+            if (id != producto.Id) return NotFound();
 
             if (ModelState.IsValid)
             {
                 try
                 {
+                    var productoImagen = await _context.Products.AsNoTracking().FirstOrDefaultAsync(p => p.Id == id);
+
+                    if (productoImagen == null)
+                    {
+                        return NotFound();
+                    }
+
+                    producto.Imagen = productoImagen.Imagen;
+
                     _context.Update(producto);
                     await _context.SaveChangesAsync();
                 }
@@ -115,33 +103,22 @@ namespace DecoStation.Controllers
                     {
                         return NotFound();
                     }
-                    else
-                    {
-                        throw;
-                    }
+                    else throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Id", producto.CategoriaID);
+            ViewData["CategoriaID"] = new SelectList(_context.Categories, "Id", "Name", producto.CategoriaID);
             return View(producto);
         }
 
         // GET: Productos/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
+            if (id == null) return NotFound();
             var producto = await _context.Products
                 .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (producto == null)
-            {
-                return NotFound();
-            }
-
+            if (producto == null) return NotFound();
             return View(producto);
         }
 
@@ -155,7 +132,6 @@ namespace DecoStation.Controllers
             {
                 _context.Products.Remove(producto);
             }
-
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -164,56 +140,39 @@ namespace DecoStation.Controllers
         {
             return _context.Products.Any(e => e.Id == id);
         }
+
         // GET: Productos/CambiarImagen/5 
         public async Task<IActionResult> CambiarImagen(int? id)
         {
-            if (id == null || _context.Products == null)
-            {
-                return NotFound();
-            }
+            if (id == null || _context.Products == null) return NotFound();
             var producto = await _context.Products
-            .Include(p => p.Category)
-            .FirstOrDefaultAsync(m => m.Id == id);
-            if (producto == null)
-            {
-                return NotFound();
-            }
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (producto == null) return NotFound();
             return View(producto);
         }
+
         // POST: Productos/CambiarImagen/5 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CambiarImagen(int? id, IFormFile imagen)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
             var producto = await _context.Products.FindAsync(id);
-            if (producto == null)
-            {
-                return NotFound();
-            }
-
-            if (imagen == null)
-            {
-                return NotFound();
-            }
+            if (producto == null) return NotFound();
+            if (imagen == null) return NotFound();
 
             if (ModelState.IsValid)
             {
-                // Copiar archivo de imagen 
-                string strRutaImagenes = Path.Combine(_webHostEnvironment.WebRootPath, "imagenes");
-                string strExtension = Path.GetExtension(imagen.FileName);
-                string strNombreFichero = producto.Id.ToString() + strExtension;
-                string strRutaFichero = Path.Combine(strRutaImagenes, strNombreFichero);
-                using (var fileStream = new FileStream(strRutaFichero, FileMode.Create))
+                string rutaImagenes = Path.Combine(_webHostEnvironment.WebRootPath, "Images");
+                string extension = Path.GetExtension(imagen.FileName);
+                string nombreFichero = producto.Id.ToString() + extension;
+                string rutaFichero = Path.Combine(rutaImagenes, nombreFichero);
+                using (var stream = new FileStream(rutaFichero, FileMode.Create))
                 {
-                    imagen.CopyTo(fileStream);
+                    imagen.CopyTo(stream);
                 }
-
-                // Actualizar producto con nueva imagen 
-                producto.Imagen = strNombreFichero;
+                producto.Imagen = nombreFichero;
                 try
                 {
                     _context.Update(producto);
@@ -221,17 +180,12 @@ namespace DecoStation.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ProductoExists(producto.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    if (!ProductoExists(producto.Id)) return NotFound();
+                    else throw;
                 }
             }
             return View(producto);
         }
     }
+
 }

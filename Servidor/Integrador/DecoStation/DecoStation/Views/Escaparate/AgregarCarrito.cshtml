@@ -1,0 +1,32 @@
+﻿@model DecoStation.Models.Producto
+
+@{
+    ViewData["Title"] = "Agregar al Carrito";
+}
+
+<h2>Agregar al Carrito</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Nombre</dt>
+        <dd class="col-sm-10">@Model.Name</dd>
+
+        <dt class="col-sm-2">Descripción</dt>
+        <dd class="col-sm-10">@Model.Description</dd>
+
+        <dt class="col-sm-2">Precio</dt>
+        <dd class="col-sm-10">@Model.PriceChain</dd>
+
+        <dt class="col-sm-2">Categoría</dt>
+        <dd class="col-sm-10">@Model.Category?.Name</dd>
+    </dl>
+</div>
+
+<form asp-action="AgregarCarritoPost" method="post">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <button type="submit" class="btn btn-primary">Añadir al carrito</button>
+</form>
+
+<p>
+    <a asp-action="Index">Volver al escaparate</a>
+</p>

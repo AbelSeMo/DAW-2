@@ -59,7 +59,7 @@ namespace DecoStation.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Quantity,OrderId,ProductId,Summary")] Detalle detalle)
+        public async Task<IActionResult> Create([Bind("Id,Quantity,Price,OrderId,ProductId")] Detalle detalle)
         {
             if (ModelState.IsValid)
             {
@@ -93,7 +93,7 @@ namespace DecoStation.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Quantity,OrderId,ProductId,Summary")] Detalle detalle)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Quantity,Price,OrderId,ProductId")] Detalle detalle)
         {
             if (id != detalle.Id)
             {

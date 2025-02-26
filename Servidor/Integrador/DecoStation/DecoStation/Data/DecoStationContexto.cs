@@ -14,7 +14,6 @@ namespace DecoStation.Data
         public DbSet<Usuario>? Users { get; set; }
         public DbSet<Producto>? Products { get; set; }
         public DbSet<Pedido>? Orders { get; set; }
-        public DbSet<Imagen>? Images { get; set; }
         public DbSet<Estado>? Conditions { get; set; }
         public DbSet<Detalle>? Details { get; set; }
         public DbSet<Categoria>? Categories { get; set; }
@@ -25,14 +24,13 @@ namespace DecoStation.Data
             modelBuilder.Entity<Usuario>().ToTable("Usuario");
             modelBuilder.Entity<Producto>().ToTable("Producto");
             modelBuilder.Entity<Pedido>().ToTable("Pedido");
-            modelBuilder.Entity<Imagen>().ToTable("Imagen");
             modelBuilder.Entity<Estado>().ToTable("Estado");
             modelBuilder.Entity<Detalle>().ToTable("Detalle");
             modelBuilder.Entity<Categoria>().ToTable("Categoria");
 
             // Configuración de propiedades decimales
             modelBuilder.Entity<Detalle>()
-                .Property(d => d.Summary)
+                .Property(d => d.Price)
                 .HasPrecision(18, 2); // Precisión y escala para 'Summary' en Detalle
 
             modelBuilder.Entity<Producto>()

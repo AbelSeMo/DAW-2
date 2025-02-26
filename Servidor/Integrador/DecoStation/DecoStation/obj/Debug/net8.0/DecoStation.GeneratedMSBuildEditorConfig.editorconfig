@@ -252,6 +252,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWxsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/AgregarCarrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjYXBhcmF0ZVxBZ3JlZ2FyQ2Fycml0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Escaparate/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNjYXBhcmF0ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -298,26 +302,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/Imagenes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW1hZ2VuZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Repositorios/DAW-2/Servidor/Integrador/DecoStation/DecoStation/Views/MisDatos/Create.cshtml]

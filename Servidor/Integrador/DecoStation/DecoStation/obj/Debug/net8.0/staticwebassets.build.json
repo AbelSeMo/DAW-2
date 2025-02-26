@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sBZ3x6fr+di81JvITcjRaWRAX5xMVo/ch1GDWJbHbEs=",
+  "Hash": "hyiTAOFI5BWjpC8OigZHheMYgPYMbH67AnEYbFgiREw=",
   "Source": "DecoStation",
   "BasePath": "_content/DecoStation",
   "Mode": "Default",
@@ -1361,33 +1361,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\accesorios-para-vino-y-bar_241001102251_40763089.jpg",
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Aparador de piedra.jpg",
       "SourceId": "DecoStation",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
       "BasePath": "_content/DecoStation",
-      "RelativePath": "Images/accesorios-para-vino-y-bar_241001102251_40763089#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "dkv65bd6uq",
-      "Integrity": "s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\accesorios-para-vino-y-bar_241001102251_40763089.jpg"
-    },
-    {
-      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_241230061004_43359351.jpg",
-      "SourceId": "DecoStation",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
-      "BasePath": "_content/DecoStation",
-      "RelativePath": "Images/aparador_241230061004_43359351#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/Aparador de piedra#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1400,15 +1379,15 @@
       "Integrity": "BDR7Mx4ah44ggmM5ZPr9oAHzRjQ/R2cjwREpCV02R/4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\aparador_241230061004_43359351.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Aparador de piedra.jpg"
     },
     {
-      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_32691859.jpg",
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Aparador Your Style.jpg",
       "SourceId": "DecoStation",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
       "BasePath": "_content/DecoStation",
-      "RelativePath": "Images/aparador_32691859#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/Aparador Your Style#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1421,7 +1400,7 @@
       "Integrity": "F+04HATQapPmwty7k5D6bi8PXtexzzx/GJpPBe0MiGY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\aparador_32691859.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Aparador Your Style.jpg"
     },
     {
       "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\conjunto-de-mesa-y-sillas_8122587.jpg",
@@ -1445,12 +1424,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\conjunto-de-mesa-y-sillas_8122587.jpg"
     },
     {
-      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\estante_28861333.jpg",
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Estante irregular.jpg",
       "SourceId": "DecoStation",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
       "BasePath": "_content/DecoStation",
-      "RelativePath": "Images/estante_28861333#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/Estante irregular#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1463,15 +1442,15 @@
       "Integrity": "NUGpn2LPqgm3ufJjpqinvowvIeJzg6EzI4ScwIth+zE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\estante_28861333.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Estante irregular.jpg"
     },
     {
-      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\libreria_28864569.jpg",
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Libreria.jpg",
       "SourceId": "DecoStation",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
       "BasePath": "_content/DecoStation",
-      "RelativePath": "Images/libreria_28864569#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/Libreria#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1484,15 +1463,15 @@
       "Integrity": "8wAVe1e/4cVfWN51KlkUYEuX1Eo8PdU05TI3Wn3l3Ls=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\libreria_28864569.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Libreria.jpg"
     },
     {
-      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_25756891.jpg",
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Mesa de cristal.jpg",
       "SourceId": "DecoStation",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
       "BasePath": "_content/DecoStation",
-      "RelativePath": "Images/mesa-de-centro_25756891#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/Mesa de cristal#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1505,36 +1484,15 @@
       "Integrity": "eiIjVsDyEgYDOsZgAgdOxG06XY1n21KecnDJTAt+yxo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\mesa-de-centro_25756891.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Mesa de cristal.jpg"
     },
     {
-      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_302593.jpg",
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Mesa normal.jpg",
       "SourceId": "DecoStation",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
       "BasePath": "_content/DecoStation",
-      "RelativePath": "Images/mesa-de-centro_302593#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vptgyiix9n",
-      "Integrity": "c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\mesa-de-centro_302593.jpg"
-    },
-    {
-      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-comedor_241028061007_41512575.jpg",
-      "SourceId": "DecoStation",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
-      "BasePath": "_content/DecoStation",
-      "RelativePath": "Images/mesa-de-comedor_241028061007_41512575#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/Mesa normal#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1547,15 +1505,78 @@
       "Integrity": "9uqp/OKLi/R57Cfs9llNaeCuASPN3MhJBGAJrg2mSxw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\mesa-de-comedor_241028061007_41512575.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Mesa normal.jpg"
     },
     {
-      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\silla_241022032509_41429559.jpg",
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Mesa redondeada.jpg",
       "SourceId": "DecoStation",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
       "BasePath": "_content/DecoStation",
-      "RelativePath": "Images/silla_241022032509_41429559#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/Mesa redondeada#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vptgyiix9n",
+      "Integrity": "c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Mesa redondeada.jpg"
+    },
+    {
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\noStock.png",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/noStock#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pnclej69t8",
+      "Integrity": "Vc33Av5ATndXY7xZi9REwj1Gxp872p/LYq+2pJ1eiAs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\noStock.png"
+    },
+    {
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Petaca inscrita.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/Petaca inscrita#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dkv65bd6uq",
+      "Integrity": "s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Petaca inscrita.jpg"
+    },
+    {
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Silla medio taburete.jpg",
+      "SourceId": "DecoStation",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
+      "BasePath": "_content/DecoStation",
+      "RelativePath": "Images/Silla medio taburete#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1568,15 +1589,15 @@
       "Integrity": "ZSi1Pu69PdjTGCadMaFqGbD+dmA26H09TOEY/XtDRLM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\silla_241022032509_41429559.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Silla medio taburete.jpg"
     },
     {
-      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\sofa_20959237.jpg",
+      "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Sofa clásico.jpg",
       "SourceId": "DecoStation",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\",
       "BasePath": "_content/DecoStation",
-      "RelativePath": "Images/sofa_20959237#[.{fingerprint}]?.jpg",
+      "RelativePath": "Images/Sofa clásico#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1589,7 +1610,7 @@
       "Integrity": "sRQ7CxEiR5dnqGUHKgA3aB86pLljHgcttT+eflrL7JE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\sofa_20959237.jpg"
+      "OriginalItemSpec": "wwwroot\\Images\\Sofa clásico.jpg"
     },
     {
       "Identity": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\js\\site.js",
@@ -5360,90 +5381,8 @@
       ]
     },
     {
-      "Route": "Images/accesorios-para-vino-y-bar_241001102251_40763089.dkv65bd6uq.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\accesorios-para-vino-y-bar_241001102251_40763089.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "63835"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 11:24:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dkv65bd6uq"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/accesorios-para-vino-y-bar_241001102251_40763089.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4="
-        }
-      ]
-    },
-    {
-      "Route": "Images/accesorios-para-vino-y-bar_241001102251_40763089.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\accesorios-para-vino-y-bar_241001102251_40763089.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "63835"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 11:24:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4="
-        }
-      ]
-    },
-    {
-      "Route": "Images/aparador_241230061004_43359351.4gw35i07hh.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_241230061004_43359351.jpg",
+      "Route": "Images/Aparador de piedra.4gw35i07hh.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Aparador de piedra.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5478,7 +5417,7 @@
         },
         {
           "Name": "label",
-          "Value": "Images/aparador_241230061004_43359351.jpg"
+          "Value": "Images/Aparador de piedra.jpg"
         },
         {
           "Name": "integrity",
@@ -5487,8 +5426,8 @@
       ]
     },
     {
-      "Route": "Images/aparador_241230061004_43359351.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_241230061004_43359351.jpg",
+      "Route": "Images/Aparador de piedra.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Aparador de piedra.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5524,8 +5463,8 @@
       ]
     },
     {
-      "Route": "Images/aparador_32691859.9oc7z9ln1r.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_32691859.jpg",
+      "Route": "Images/Aparador Your Style.9oc7z9ln1r.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Aparador Your Style.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5560,7 +5499,7 @@
         },
         {
           "Name": "label",
-          "Value": "Images/aparador_32691859.jpg"
+          "Value": "Images/Aparador Your Style.jpg"
         },
         {
           "Name": "integrity",
@@ -5569,8 +5508,8 @@
       ]
     },
     {
-      "Route": "Images/aparador_32691859.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\aparador_32691859.jpg",
+      "Route": "Images/Aparador Your Style.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Aparador Your Style.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5688,8 +5627,8 @@
       ]
     },
     {
-      "Route": "Images/estante_28861333.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\estante_28861333.jpg",
+      "Route": "Images/Estante irregular.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Estante irregular.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5725,8 +5664,8 @@
       ]
     },
     {
-      "Route": "Images/estante_28861333.vf5xlox24x.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\estante_28861333.jpg",
+      "Route": "Images/Estante irregular.vf5xlox24x.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Estante irregular.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5761,7 +5700,7 @@
         },
         {
           "Name": "label",
-          "Value": "Images/estante_28861333.jpg"
+          "Value": "Images/Estante irregular.jpg"
         },
         {
           "Name": "integrity",
@@ -5770,8 +5709,8 @@
       ]
     },
     {
-      "Route": "Images/libreria_28864569.f926s1fufz.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\libreria_28864569.jpg",
+      "Route": "Images/Libreria.f926s1fufz.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Libreria.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5806,7 +5745,7 @@
         },
         {
           "Name": "label",
-          "Value": "Images/libreria_28864569.jpg"
+          "Value": "Images/Libreria.jpg"
         },
         {
           "Name": "integrity",
@@ -5815,8 +5754,8 @@
       ]
     },
     {
-      "Route": "Images/libreria_28864569.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\libreria_28864569.jpg",
+      "Route": "Images/Libreria.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Libreria.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5852,8 +5791,8 @@
       ]
     },
     {
-      "Route": "Images/mesa-de-centro_25756891.iyurhbpcnv.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_25756891.jpg",
+      "Route": "Images/Mesa de cristal.iyurhbpcnv.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Mesa de cristal.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5888,7 +5827,7 @@
         },
         {
           "Name": "label",
-          "Value": "Images/mesa-de-centro_25756891.jpg"
+          "Value": "Images/Mesa de cristal.jpg"
         },
         {
           "Name": "integrity",
@@ -5897,8 +5836,8 @@
       ]
     },
     {
-      "Route": "Images/mesa-de-centro_25756891.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_25756891.jpg",
+      "Route": "Images/Mesa de cristal.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Mesa de cristal.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5934,90 +5873,8 @@
       ]
     },
     {
-      "Route": "Images/mesa-de-centro_302593.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_302593.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85613"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 11:24:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE="
-        }
-      ]
-    },
-    {
-      "Route": "Images/mesa-de-centro_302593.vptgyiix9n.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-centro_302593.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85613"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 05 Feb 2025 11:24:14 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vptgyiix9n"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/mesa-de-centro_302593.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE="
-        }
-      ]
-    },
-    {
-      "Route": "Images/mesa-de-comedor_241028061007_41512575.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-comedor_241028061007_41512575.jpg",
+      "Route": "Images/Mesa normal.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Mesa normal.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6053,8 +5910,8 @@
       ]
     },
     {
-      "Route": "Images/mesa-de-comedor_241028061007_41512575.uy5bw2pc5s.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\mesa-de-comedor_241028061007_41512575.jpg",
+      "Route": "Images/Mesa normal.uy5bw2pc5s.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Mesa normal.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6089,7 +5946,7 @@
         },
         {
           "Name": "label",
-          "Value": "Images/mesa-de-comedor_241028061007_41512575.jpg"
+          "Value": "Images/Mesa normal.jpg"
         },
         {
           "Name": "integrity",
@@ -6098,8 +5955,254 @@
       ]
     },
     {
-      "Route": "Images/silla_241022032509_41429559.7hzshdnfgq.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\silla_241022032509_41429559.jpg",
+      "Route": "Images/Mesa redondeada.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Mesa redondeada.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 11:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Mesa redondeada.vptgyiix9n.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Mesa redondeada.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 11:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vptgyiix9n"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Mesa redondeada.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-c0S9X3KdxjlkZ6R9GfXXZHngHKrI7oZ0t8Wey+hJsdE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/noStock.pnclej69t8.png",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\noStock.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vc33Av5ATndXY7xZi9REwj1Gxp872p/LYq+2pJ1eiAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 10:35:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pnclej69t8"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/noStock.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vc33Av5ATndXY7xZi9REwj1Gxp872p/LYq+2pJ1eiAs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/noStock.png",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\noStock.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "123258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vc33Av5ATndXY7xZi9REwj1Gxp872p/LYq+2pJ1eiAs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 10:35:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vc33Av5ATndXY7xZi9REwj1Gxp872p/LYq+2pJ1eiAs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Petaca inscrita.dkv65bd6uq.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Petaca inscrita.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 11:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dkv65bd6uq"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Petaca inscrita.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Petaca inscrita.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Petaca inscrita.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "63835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 11:24:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s5mG5ZVv2JWK+xgs9zYX4MDI7D32v3jZBTUk5d0xBx4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Silla medio taburete.7hzshdnfgq.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Silla medio taburete.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6134,7 +6237,7 @@
         },
         {
           "Name": "label",
-          "Value": "Images/silla_241022032509_41429559.jpg"
+          "Value": "Images/Silla medio taburete.jpg"
         },
         {
           "Name": "integrity",
@@ -6143,8 +6246,8 @@
       ]
     },
     {
-      "Route": "Images/silla_241022032509_41429559.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\silla_241022032509_41429559.jpg",
+      "Route": "Images/Silla medio taburete.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Silla medio taburete.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6180,8 +6283,8 @@
       ]
     },
     {
-      "Route": "Images/sofa_20959237.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\sofa_20959237.jpg",
+      "Route": "Images/Sofa clásico.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Sofa clásico.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6217,8 +6320,8 @@
       ]
     },
     {
-      "Route": "Images/sofa_20959237.panzghodsl.jpg",
-      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\sofa_20959237.jpg",
+      "Route": "Images/Sofa clásico.panzghodsl.jpg",
+      "AssetFile": "E:\\Repositorios\\DAW-2\\Servidor\\Integrador\\DecoStation\\DecoStation\\wwwroot\\Images\\Sofa clásico.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6253,7 +6356,7 @@
         },
         {
           "Name": "label",
-          "Value": "Images/sofa_20959237.jpg"
+          "Value": "Images/Sofa clásico.jpg"
         },
         {
           "Name": "integrity",

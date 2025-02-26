@@ -30,9 +30,6 @@ namespace DecoStation.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -52,6 +49,10 @@ namespace DecoStation.Migrations
                     b.Property<int>("OrderId")
                         .HasColumnType("int");
 
+                    b.Property<decimal?>("Price")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(11, 2)");
+
                     b.Property<int>("ProductId")
                         .HasColumnType("int");
 
@@ -60,11 +61,6 @@ namespace DecoStation.Migrations
 
                     b.Property<int?>("Quantity")
                         .HasColumnType("int");
-
-                    b.Property<decimal?>("Summary")
-                        .IsRequired()
-                        .HasPrecision(18, 2)
-                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -92,22 +88,6 @@ namespace DecoStation.Migrations
                     b.ToTable("Estado", (string)null);
                 });
 
-            modelBuilder.Entity("DecoStation.Models.Imagen", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Url")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Imagen", (string)null);
-                });
-
             modelBuilder.Entity("DecoStation.Models.Pedido", b =>
                 {
                     b.Property<int>("Id")
@@ -123,14 +103,12 @@ namespace DecoStation.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("Confirmed")
-                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("Delivered")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("DeliveryTime")
-                        .IsRequired()
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("Paid")
@@ -178,14 +156,13 @@ namespace DecoStation.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal?>("Price")
-                        .IsRequired()
+                    b.Property<decimal>("Price")
                         .HasPrecision(18, 2)
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(9, 2)");
 
-                    b.Property<int?>("Stock")
+                    b.Property<string>("PriceChain")
                         .IsRequired()
-                        .HasColumnType("int");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -215,7 +192,6 @@ namespace DecoStation.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FullName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PhoneNumber")

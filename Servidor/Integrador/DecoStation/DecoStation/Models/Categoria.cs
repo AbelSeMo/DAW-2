@@ -9,9 +9,6 @@ namespace DecoStation.Models
         [Display(Name = "Nombre")]
         public string? Name { get; set; }
 
-        [Display(Name = "Descripción")]
-        public string? Description { get; set; }
-
         public ICollection<Producto>? Products { get; set; }
     }
 }

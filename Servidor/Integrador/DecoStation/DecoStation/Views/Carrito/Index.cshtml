@@ -1,72 +1,104 @@
 ﻿@model DecoStation.Models.Pedido
-
 @{
-    ViewData["Title"] = "Carrito de la Compra";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Carrito";
 }
 
-<h1>Carrito</h1>
+<div class="container mt-4">
+    <div class="card shadow-lg border-0">
+        <div class="card-header bg-pink text-white text-center">
+            <h3><i class="bi bi-cart4"></i> Carrito de Compras</h3>
+        </div>
 
-@if (Model != null)
-{
-    <div>
-        <h3>Pedido # @Model.Id</h3>
-        <p>Fecha de Envío: @Model.DeliveryTime?.ToShortDateString()</p>
-        <p>Estado: @Model.Condition?.Description</p>
-    </div>
+        <div class="card-body">
+            <!-- Información del Pedido y Cliente en 2 columnas -->
+            <div class="row mb-4">
+                <!-- Información del Pedido -->
+                <div class="col-md-6 border-end">
+                    <h4 class="text-center text-muted">Pedido</h4>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-5 text-end fw-bold">
+                            <i class="bi bi-file-earmark-text"></i> Nº Pedido:
+                        </dt>
+                        <dd class="col-sm-7 text-start">@Model.Id</dd>
 
-    @if (Model.Detalles != null && Model.Detalles.Any())
-    {
-        <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Producto</th>
-                    <th>Cantidad</th>
-                    <th>Precio Unitario</th>
-                    <th>Subtotal</th>
-                    <th>Acciones</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var detalle in Model.Detalles)
-                {
+                        <dt class="col-sm-5 text-end fw-bold">
+                            <i class="bi bi-calendar-event"></i> Fecha Creación:
+                        </dt>
+                        <dd class="col-sm-7 text-start">@Html.DisplayFor(model => model.DeliveryTime)</dd>
+
+                        <dt class="col-sm-5 text-end fw-bold">
+                            <i class="bi bi-check2-circle"></i> Estado:
+                        </dt>
+                        <dd class="col-sm-7 text-start">@Html.DisplayFor(model => model.Condition.Description)</dd>
+                    </dl>
+                </div>
+
+            <!-- Detalles del Pedido -->
+            <h4 class="text-center text-muted">Detalles del Pedido</h4>
+            <hr />
+            <table class="table table-hover align-middle">
+                <thead>
                     <tr>
-                        <td>@detalle.Producto?.Name</td>
-                        <td>@detalle.Quantity</td>
-                        <td>@detalle.Producto?.Price.ToString()</td>
-                        <td>@detalle.Summary?.ToString()</td>
-                        <td>
-                            <form asp-action="MasCantidad" method="post" style="display:inline">
-                                <input type="hidden" name="id" value="@detalle.Id" />
-                                <button type="submit" class="btn btn-sm btn-primary">+</button>
-                            </form>
-                            <form asp-action="MenosCantidad" method="post" style="display:inline">
-                                <input type="hidden" name="id" value="@detalle.Id" />
-                                <button type="submit" class="btn btn-sm btn-warning">-</button>
-                            </form>
-                            <form asp-action="EliminarLinea" method="post" style="display:inline">
-                                <input type="hidden" name="id" value="@detalle.Id" />
-                                <button type="submit" class="btn btn-sm btn-danger">Eliminar</button>
-                            </form>
-                        </td>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th class="text-center">Cantidad</th>
+                        <th>Precio</th>
+                        <th>Total</th>
+                        <th>Acciones</th>
                     </tr>
-                }
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Detalles)
+                    {
+                        <tr>
+                            <td>@item.Producto.Name</td>
+                            <td class="text-center">
+                                <!-- Botones para ajustar la cantidad -->
+                                @if (item.Quantity > 1)
+                                {
+                                    <a asp-action="RestarCantidad" asp-controller="Carrito" asp-route-id="@item.Id" class="btn btn-outline-secondary btn-sm">
+                                        <i class="bi bi-dash"></i>
+                                    </a>
+                                }
+                                <span class="mx-2">@item.Quantity</span>
+                                <a asp-action="AumentarCantidad" asp-controller="Carrito" asp-route-id="@item.Id" class="btn btn-outline-secondary btn-sm">
+                                    <i class="bi bi-plus"></i>
+                                </a>
+                            </td>
+                            <td>@item.Producto.Price€</td>
+                            <td>@(item.Producto.Price * item.Quantity)€</td>
+                            <td>
+                                <!-- Botón para eliminar el producto -->
+                                <form asp-action="EliminarProducto" method="post" class="d-inline">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button type="submit" class="btn btn-danger btn-sm">
+                                        <i class="bi bi-trash3-fill"></i> Eliminar
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
 
-        <form asp-action="ConfirmarPedido" method="post">
-            <input type="hidden" name="id" value="@Model.Id" />
-            <button type="submit" class="btn btn-success">Confirmar Pedido</button>
-        </form>
-    }
-    else
-    {
-        <p>No hay productos en el carrito.</p>
-    }
-}
-else
-{
-    <p>No se encontró el pedido en el carrito.</p>
-}
+            <!-- Total general -->
+            <div class="text-end fw-bold mb-3">
+                <h4>Total Pedido: <span class="text-success">@(Model.Detalles.Sum(x => x.Producto.Price * x.Quantity))€</span></h4>
+            </div>
 
-<a asp-controller="Escaparate" asp-action="Index" class="btn btn-info">Seguir Comprando</a>
+            <!-- Botones de Acción con el mismo tamaño y centrados -->
+            <div class="text-center mt-4 d-flex justify-content-center gap-3">
+                <form asp-action="ConfirmarPedido" method="post" class="w-50">
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button type="submit" class="btn btn-success btn-lg w-100 shadow-sm">
+                        <i class="bi bi-check-circle"></i> Confirmar Pedido
+                    </button>
+                </form>
+                <a asp-action="Index" asp-controller="Escaparate" class="btn btn-outline-secondary btn-lg w-100 shadow-sm text-center">
+                    <i class="bi bi-arrow-left"></i> Volver al Escaparate
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

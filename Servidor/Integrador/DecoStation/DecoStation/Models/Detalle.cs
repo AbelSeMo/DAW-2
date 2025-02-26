@@ -1,25 +1,19 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DecoStation.Models
 {
     public class Detalle
     {
         public int Id { get; set; }
-
-        [Display(Name = "Cantidad")]
         public int? Quantity { get; set; }
-        [Display(Name = "Núm.Pedido")]
-        public int OrderId { get; set; }
-        [Display(Name = "Id.Producto")]
-        public int ProductId { get; set; }
 
-        [Display(Name = "Subtotal")]
-        [DataType(DataType.Currency, ErrorMessage = "Formato de subtotal a pagar no válido.")]
-        [Range(0, double.MaxValue, ErrorMessage = "El subtotal debe ser un valor positivo.")]
-        [Required(ErrorMessage = "El subtotal es un campo requerido.")]
-        public decimal? Summary { get; set; }
-        [Display(Name = "Núm.Pedido")]
+        [Column(TypeName = "decimal(11, 2)")]
+        public decimal? Price { get; set; }
+
+        public int OrderId { get; set; }
         public Pedido? Order { get; set; }
+        public int ProductId { get; set; }
         public Producto? Producto { get; set; }
     }
 }
