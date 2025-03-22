@@ -1,0 +1,62 @@
+body {
+  background-color: #f5f5dc;
+}
+
+main {
+  padding: 1em;
+}
+
+.card {
+  margin: 10px;
+  border: 3px solid #ff4500;
+  background-color: #ffffff;
+  text-align: center;
+  font-style: oblique;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+}
+.card .card-body {
+  border-top: 2px solid #ff4500;
+  background-color: #ffe4b5;
+}
+
+.card-img-container {
+  position: relative;
+  overflow: hidden;
+}
+.card-img-container .card-img-top {
+  width: 100%;
+}
+.card-img-container .card-img-top img {
+  padding: 1em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.categories-container {
+  border: 2px solid #b0b0b0;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #fffaf0;
+}
+
+.category-item {
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+.category-item:last-child {
+  border-bottom: none;
+}
+.category-item:hover {
+  background-color: #e0e0e0;
+}
+
+.category-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+/*# sourceMappingURL=tienda.css.map */
